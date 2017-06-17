@@ -59,7 +59,6 @@ class OntologyMaker:
     # Add New Property
     def PropertyDefiner(self, mainProperties):
         for eachRelation in mainProperties:
-            relationName = str(self.ontoName + "." + str(eachRelation[0]))
             relation_found = True
             for cc in set(self.onto.properties):
                 if eachRelation[0] == str(cc):
@@ -67,7 +66,7 @@ class OntologyMaker:
             for instance_is in set(self.onto.classes):
                 if eachRelation[0] == str(instance_is):
                     relation_found = False
-            if relation_found:                #
+            if relation_found:
                 NewClass = types.new_class(eachRelation[0], (Property,), kwds={"ontology": self.onto})
 
     # Update new Tagged Classified sets
