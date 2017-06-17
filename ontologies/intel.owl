@@ -18,40 +18,46 @@
 <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
 <Prefix name="intel" IRI="http://test.org/intel.owl"/>
 
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">51.0</Literal></Annotation>
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">54.0</Literal></Annotation>
 
-<Declaration><Class IRI="http://test.org/intel.owl#hardware"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#network"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#computer_methodology"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#pic"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#microcontroller"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#network_algorithems"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#ai"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#distributed_systems"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#agent"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#machine_learning"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#intelligent_agent"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#operational_symantics"/></Declaration>
-
-
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#caused_by"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#disease"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#cure"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#cause"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#prevention"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#symptom"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#treatment"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#nn"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#cancer"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#inflammation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hepatitis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cirrhosis"/></Declaration>
 
 
-<SubClassOf><Class IRI="http://test.org/intel.owl#pic"/><Class IRI="http://test.org/intel.owl#hardware"/></SubClassOf>
 
-<SubClassOf><Class IRI="http://test.org/intel.owl#microcontroller"/><Class IRI="http://test.org/intel.owl#hardware"/></SubClassOf>
 
-<SubClassOf><Class IRI="http://test.org/intel.owl#network_algorithems"/><Class IRI="http://test.org/intel.owl#hardware"/></SubClassOf>
 
-<SubClassOf><Class IRI="http://test.org/intel.owl#ai"/><Class IRI="http://test.org/intel.owl#computer_methodology"/></SubClassOf>
 
-<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_systems"/><Class IRI="http://test.org/intel.owl#computer_methodology"/></SubClassOf>
 
-<SubClassOf><Class IRI="http://test.org/intel.owl#agent"/><Class IRI="http://test.org/intel.owl#computer_methodology"/></SubClassOf>
 
-<SubClassOf><Class IRI="http://test.org/intel.owl#machine_learning"/><Class IRI="http://test.org/intel.owl#computer_methodology"/></SubClassOf>
 
-<ClassAssertion><Class IRI="http://test.org/intel.owl#ai"/><NamedIndividual IRI="http://test.org/intel.owl#intelligent_agent"/></ClassAssertion>
+<SubClassOf><Class IRI="http://test.org/intel.owl#cancer"/><Class IRI="http://test.org/intel.owl#disease"/></SubClassOf>
 
-<ClassAssertion><Class IRI="http://test.org/intel.owl#ai"/><NamedIndividual IRI="http://test.org/intel.owl#operational_symantics"/></ClassAssertion>
+<SubClassOf><Class IRI="http://test.org/intel.owl#inflammation"/><Class IRI="http://test.org/intel.owl#disease"/></SubClassOf>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#inflammation"/><NamedIndividual IRI="http://test.org/intel.owl#hepatitis"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cirrhosis"/></ClassAssertion>
+<ObjectPropertyAssertion>
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/><Literal datatypeIRI="&xsd;string">54.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://test.org/intel.owl#probability"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#priorVersion"/><Literal datatypeIRI="&xsd;string">54.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#deprecated"/><Literal datatypeIRI="&xsd;string">0.0</Literal></Annotation>
+<ObjectProperty IRI="http://test.org/intel.owl#caused_by"/><NamedIndividual IRI="http://test.org/intel.owl#cirrhosis"/><NamedIndividual IRI="http://test.org/intel.owl#hepatitis"/></ObjectPropertyAssertion>
 
 </Ontology>
