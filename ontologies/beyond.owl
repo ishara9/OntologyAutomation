@@ -1,0 +1,819 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://test.org/beyond.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://test.org/beyond.owl">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#treatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#can_prevent_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/beyond.owl#description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#abnormal_metabolism"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#blood_glucose_testing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#cough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#excessive_thirst"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#extreme_hunger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#fever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#frequent_urination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#genes_and_family_history"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#get_plenty_of_fiber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#go_for_whole_grains"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#healthy_eating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#immune_system_dysfunction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#infections"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#influenza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#inheritance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#injury"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#insulin_injection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#insulin_resistance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#loss_weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#maintaining_an_appropriate_body_weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#medications"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#more_infections_than_usual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#overweight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#pain_and_stiffness_in_and_around_one_or_more_joints"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#physical_inactivity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#physical_or_occupational_therapy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#protecting_your_joints_from_injuries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#regular_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#sore_throat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#sores_that_are_slow_to_heal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#splints_or_joint_assistive_aids"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#sudden_vision_changes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#surgery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#unexplained_weight_loss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#unidentified_virus,stimulating_an_immune_attack_against_the_beta_cells_of_the_pancreas_and_produce_insulin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#very_dry_skin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#weight_loss"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#can_prevent_by"/>
+            <Class IRI="http://www.semanticweb.org/beyond.owl#prevention"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+            <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+            <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+            <Class IRI="http://www.semanticweb.org/beyond.owl#treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#abnormal_metabolism"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#blood_glucose_testing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#cough"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#excessive_thirst"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#extreme_hunger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#fever"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#frequent_urination"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#genes_and_family_history"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#prevention"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#get_plenty_of_fiber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#prevention"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#go_for_whole_grains"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#healthy_eating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#immune_system_dysfunction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#infections"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#influenza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#inheritance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#injury"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#insulin_injection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#insulin_resistance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#prevention"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#loss_weight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#prevention"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#maintaining_an_appropriate_body_weight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#medications"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#more_infections_than_usual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#overweight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#pain_and_stiffness_in_and_around_one_or_more_joints"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#physical_activity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#physical_inactivity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#physical_or_occupational_therapy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#prevention"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#protecting_your_joints_from_injuries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#prevention"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#regular_physical_activity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#sore_throat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#sores_that_are_slow_to_heal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#splints_or_joint_assistive_aids"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#sudden_vision_changes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#surgery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#unexplained_weight_loss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#unidentified_virus,stimulating_an_immune_attack_against_the_beta_cells_of_the_pancreas_and_produce_insulin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#very_dry_skin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#weight_loss"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#can_prevent_by"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#maintaining_an_appropriate_body_weight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#can_prevent_by"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#protecting_your_joints_from_injuries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#immune_system_dysfunction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#abnormal_metabolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#injury"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#infections"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#inheritance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#pain_and_stiffness_in_and_around_one_or_more_joints"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#medications"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#weight_loss"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#surgery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#physical_or_occupational_therapy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#splints_or_joint_assistive_aids"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#can_prevent_by"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#regular_physical_activity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#can_prevent_by"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#get_plenty_of_fiber"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#can_prevent_by"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#loss_weight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#physical_activity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#insulin_resistance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#unidentified_virus,stimulating_an_immune_attack_against_the_beta_cells_of_the_pancreas_and_produce_insulin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#genes_and_family_history"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#overweight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#very_dry_skin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#extreme_hunger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#frequent_urination"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#excessive_thirst"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#unexplained_weight_loss"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#more_infections_than_usual"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#sores_that_are_slow_to_heal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#sudden_vision_changes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#blood_glucose_testing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#physical_activity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#insulin_injection"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#healthy_eating"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/beyond.owl#description"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#arthritis"/>
+        <Literal datatypeIRI="&xsd;string">The word arthritis actually means joint inflammation, but the term has acquired a wider meaning. In public health, arthritis is used as a shorthand term for arthritis and other rheumatic conditions—a label for the more than 100 rheumatic diseases and conditions that affect joints, the tissues which surround joints and other connective tissue. The pattern, severity, and location of symptoms can vary depending on the specific form of the disease. Typically, rheumatic conditions are characterized by pain and stiffness in and around one or more joints. The symptoms can develop gradually or suddenly. Certain rheumatic conditions can also involve the immune system and various internal organs of the body.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/beyond.owl#description"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/beyond.owl#diabetes"/>
+        <Literal datatypeIRI="&xsd;string">Diabetes is a disease in which blood glucose levels are above normal. Most of the food we eat is turned into glucose, or sugar, for our bodies to use for energy. The pancreas, an organ that lies near the stomach, makes a hormone called insulin to help glucose get into the cells of our bodies. When you have diabetes, your body either doesn&apos;t make enough insulin or can&apos;t use its own insulin as well as it should. This causes sugar to build up in your blood.
+
+Diabetes can cause serious health complications including heart disease, blindness, kidney failure, and lower-extremity amputations. Diabetes is the seventh leading cause of death in the United States.</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#can_prevent_by"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#can_prevent_by"/>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#can_prevent_by"/>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#prevention"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_cause"/>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#cause"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_symptom"/>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/beyond.owl#has_treatment"/>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#treatment"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/beyond.owl#description"/>
+        <Class IRI="http://www.semanticweb.org/beyond.owl#disease"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/beyond.owl#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#abnormal_metabolism</IRI>
+        <Literal datatypeIRI="&xsd;string">abnormal_metabolism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#arthritis</IRI>
+        <Literal datatypeIRI="&xsd;string">arthritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#blood_glucose_testing</IRI>
+        <Literal datatypeIRI="&xsd;string">blood_glucose_testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#can_prevent_by</IRI>
+        <Literal datatypeIRI="&xsd;string">can_prevent_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#cause</IRI>
+        <Literal datatypeIRI="&xsd;string">cause</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#description</IRI>
+        <Literal datatypeIRI="&xsd;string">description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#diabetes</IRI>
+        <Literal datatypeIRI="&xsd;string">diabetes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#disease</IRI>
+        <Literal datatypeIRI="&xsd;string">disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#excessive_thirst</IRI>
+        <Literal datatypeIRI="&xsd;string">excessive_thirst</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#extreme_hunger</IRI>
+        <Literal datatypeIRI="&xsd;string">extreme_hunger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#frequent_urination</IRI>
+        <Literal datatypeIRI="&xsd;string">frequent_urination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#genes_and_family_history</IRI>
+        <Literal datatypeIRI="&xsd;string">genes_and_family_history</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#get_plenty_of_fiber</IRI>
+        <Literal datatypeIRI="&xsd;string">get_plenty_of_fiber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#go_for_whole_grains</IRI>
+        <Literal datatypeIRI="&xsd;string">go_for_whole_grains</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#has_cause</IRI>
+        <Literal datatypeIRI="&xsd;string">has_cause</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#has_symptom</IRI>
+        <Literal datatypeIRI="&xsd;string">has_symptom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#has_treatment</IRI>
+        <Literal datatypeIRI="&xsd;string">has_treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#healthy_eating</IRI>
+        <Literal datatypeIRI="&xsd;string">healthy_eating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#immune_system_dysfunction</IRI>
+        <Literal datatypeIRI="&xsd;string">immune_system_dysfunction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#infections</IRI>
+        <Literal datatypeIRI="&xsd;string">infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#inheritance</IRI>
+        <Literal datatypeIRI="&xsd;string">inheritance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#injury</IRI>
+        <Literal datatypeIRI="&xsd;string">injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#insulin_injection</IRI>
+        <Literal datatypeIRI="&xsd;string">insulin_injection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#insulin_resistance</IRI>
+        <Literal datatypeIRI="&xsd;string">insulin_resistance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#loss_weight</IRI>
+        <Literal datatypeIRI="&xsd;string">loss_weight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#maintaining_an_appropriate_body_weight</IRI>
+        <Literal datatypeIRI="&xsd;string">maintaining_an_appropriate_body_weight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#medications</IRI>
+        <Literal datatypeIRI="&xsd;string">medications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#more_infections_than_usual</IRI>
+        <Literal datatypeIRI="&xsd;string">more_infections_than_usual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#overweight</IRI>
+        <Literal datatypeIRI="&xsd;string">overweight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#pain_and_stiffness_in_and_around_one_or_more_joints</IRI>
+        <Literal datatypeIRI="&xsd;string">pain_and_stiffness_in_and_around_one_or_more_joints</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#physical_activity</IRI>
+        <Literal datatypeIRI="&xsd;string">physical_activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#physical_inactivity</IRI>
+        <Literal datatypeIRI="&xsd;string">physical_inactivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#physical_or_occupational_therapy</IRI>
+        <Literal datatypeIRI="&xsd;string">physical_or_occupational_therapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#prevention</IRI>
+        <Literal datatypeIRI="&xsd;string">prevention</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#protecting_your_joints_from_injuries</IRI>
+        <Literal datatypeIRI="&xsd;string">protecting_your_joints_from_injuries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#regular_physical_activity</IRI>
+        <Literal datatypeIRI="&xsd;string">regular_physical_activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#sores_that_are_slow_to_heal</IRI>
+        <Literal datatypeIRI="&xsd;string">sores_that_are_slow_to_heal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#splints_or_joint_assistive_aids</IRI>
+        <Literal datatypeIRI="&xsd;string">splints_or_joint_assistive_aids</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#sudden_vision_changes</IRI>
+        <Literal datatypeIRI="&xsd;string">sudden_vision_changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#surgery</IRI>
+        <Literal datatypeIRI="&xsd;string">surgery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#symptom</IRI>
+        <Literal datatypeIRI="&xsd;string">symptom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#treatment</IRI>
+        <Literal datatypeIRI="&xsd;string">treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#unexplained_weight_loss</IRI>
+        <Literal datatypeIRI="&xsd;string">unexplained_weight_loss</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#unidentified_virus,stimulating_an_immune_attack_against_the_beta_cells_of_the_pancreas_and_produce_insulin</IRI>
+        <Literal datatypeIRI="&xsd;string">unidentified_virus,stimulating_an_immune_attack_against_the_beta_cells_of_the_pancreas_and_produce_insulin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#very_dry_skin</IRI>
+        <Literal datatypeIRI="&xsd;string">very_dry_skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/beyond.owl#weight_loss</IRI>
+        <Literal datatypeIRI="&xsd;string">weight_loss</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

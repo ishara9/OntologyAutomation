@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+]>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://test.org/intel.owl" ontologyIRI="http://test.org/intel.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+<Prefix name="" IRI="http://test.org/intel.owl"/>
+<Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+<Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+<Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+<Prefix name="intel" IRI="http://test.org/intel.owl"/>
+
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#usually_begins"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#caused_by"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_usually"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#have"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#instead"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#eliminate"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#disease"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#nn"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#symptom"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#cause"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dermatitis_herpetiformis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#extremely_itchy_rash"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#rash"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#the_rash_is_chronic_over_long_period"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#people"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cause_2"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#is_unknown"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#is_also_linked_to_gluten_sensitivity_celiac_sprue_disease_in_small_bowel"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#extremely_itchy_bumps"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#symptoms_itchy_bumps_blisters_on_the_elbows_knees_buttocks"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#size"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#the_rash_can_look_like_eczema"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#patients"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#scratch_marks"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#blisters"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#diet"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#medications"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#myositis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#inflammation_of_the_muscles_that_move_body"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#autoimmune_disease"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#injury_infection"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#polymyositis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#causes_muscle_weakness_in_the_muscles_the_trunk_of_body"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dermatomyositis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#causes_muscle_weakness_skin_rash"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#breathing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#other_symptoms_of_myositis_may_include_fatigue_after_trouble_swallowing_breathing"/></Declaration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#dermatitis_herpetiformis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#caused_by"/><NamedIndividual IRI="http://test.org/intel.owl#dermatitis_herpetiformis"/><NamedIndividual IRI="http://test.org/intel.owl#is_unknown"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#usually_begins"/><NamedIndividual IRI="http://test.org/intel.owl#dermatitis_herpetiformis"/><NamedIndividual IRI="http://test.org/intel.owl#people"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#dermatitis_herpetiformis"/><NamedIndividual IRI="http://test.org/intel.owl#is_also_linked_to_gluten_sensitivity_celiac_sprue_disease_in_small_bowel"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#dermatitis_herpetiformis"/><NamedIndividual IRI="http://test.org/intel.owl#extremely_itchy_rash"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#extremely_itchy_rash"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#rash"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_usually"/><NamedIndividual IRI="http://test.org/intel.owl#rash"/><NamedIndividual IRI="http://test.org/intel.owl#size"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#rash"/><NamedIndividual IRI="http://test.org/intel.owl#the_rash_is_chronic_over_long_period"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#rash"/><NamedIndividual IRI="http://test.org/intel.owl#the_rash_can_look_like_eczema"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#the_rash_is_chronic_over_long_period"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#people"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#cause_2"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#cause"/><NamedIndividual IRI="http://test.org/intel.owl#is_unknown"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#is_also_linked_to_gluten_sensitivity_celiac_sprue_disease_in_small_bowel"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#extremely_itchy_bumps"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#extremely_itchy_bumps"/><NamedIndividual IRI="http://test.org/intel.owl#symptoms_itchy_bumps_blisters_on_the_elbows_knees_buttocks"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#symptoms_itchy_bumps_blisters_on_the_elbows_knees_buttocks"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#size"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#the_rash_can_look_like_eczema"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#patients"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#have"/><NamedIndividual IRI="http://test.org/intel.owl#patients"/><NamedIndividual IRI="http://test.org/intel.owl#scratch_marks"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#scratch_marks"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#instead"/><NamedIndividual IRI="http://test.org/intel.owl#scratch_marks"/><NamedIndividual IRI="http://test.org/intel.owl#blisters"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#blisters"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#diet"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#eliminate"/><NamedIndividual IRI="http://test.org/intel.owl#diet"/><NamedIndividual IRI="http://test.org/intel.owl#medications"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#medications"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#myositis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#myositis"/><NamedIndividual IRI="http://test.org/intel.owl#inflammation_of_the_muscles_that_move_body"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#inflammation_of_the_muscles_that_move_body"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#autoimmune_disease"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#caused_by"/><NamedIndividual IRI="http://test.org/intel.owl#autoimmune_disease"/><NamedIndividual IRI="http://test.org/intel.owl#injury_infection"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#cause"/><NamedIndividual IRI="http://test.org/intel.owl#injury_infection"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#polymyositis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#polymyositis"/><NamedIndividual IRI="http://test.org/intel.owl#causes_muscle_weakness_in_the_muscles_the_trunk_of_body"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#causes_muscle_weakness_in_the_muscles_the_trunk_of_body"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#dermatomyositis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#dermatomyositis"/><NamedIndividual IRI="http://test.org/intel.owl#causes_muscle_weakness_skin_rash"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#causes_muscle_weakness_skin_rash"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#breathing"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#breathing"/><NamedIndividual IRI="http://test.org/intel.owl#other_symptoms_of_myositis_may_include_fatigue_after_trouble_swallowing_breathing"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#other_symptoms_of_myositis_may_include_fatigue_after_trouble_swallowing_breathing"/></ClassAssertion>
+
+</Ontology>

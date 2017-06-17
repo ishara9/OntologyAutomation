@@ -1,0 +1,704 @@
+<?xml version="1.0"?>
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+]>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://test.org/intel.owl" ontologyIRI="http://test.org/intel.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+<Prefix name="" IRI="http://test.org/intel.owl"/>
+<Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+<Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+<Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+<Prefix name="intel" IRI="http://test.org/intel.owl"/>
+
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#cause_by"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#have"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#similar_to"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#helps"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_leading"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_often_referred"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#often_follows"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_diagnosed_measuring"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#easily_upset"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#depends"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#leads"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#has_broken_has_invaded"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#has_broken_begun_invade"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_composed"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#surrounds"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#start_growing"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#flat"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#helps_confirm"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#are_classified_according"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#blocking"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#break"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#are_known_increase"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#used_decrease"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_most"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_mean"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_usually_treated_surgically_removing"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#has_spread"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#uses_destroy"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_not_not_be_passed"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#causes_is"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#blocks"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#damaging"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#damaging_infecting"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_having"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_defined"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#are_more"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#do_decrease"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#does_not_seem_be_easily_passed"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#had_been_reported_get"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#has_little"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#also_termed_occurred"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#was_incorrectly_considered_cause"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#mimic"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_specifically_recommended_are_developing"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#account"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_usually_establish"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#distant"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#have_limited"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#are_only_found_lining_has_not_crept"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#has_spread_lymph"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_found"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#growing_targeting"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#are_needed_allow"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#growing_targeting_are_needed_allow"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#regrow"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#need_fights"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#often_starts"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_characterized"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#connects"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#called_infects"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#produces"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#treating"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#damage"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#confer"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#hijacking_make"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#makes_bursts_killing_set"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#be_transmitted"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#gets"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#ingesting"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#doesn_t_wash_using_transfer"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#is_caused_by"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#caused_by"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#disease_is"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#microorganism"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#nn"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#disease"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#biology"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#creature"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#cause"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#symptom"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dengue"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#virus"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#evans_syndrome"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#autoimmune_disorder"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#small_blood_vessels"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#person"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#diarrhea"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#myocarditis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#influenza"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dermatomyositis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#skin"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#fibromyalgia"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#chronic_disorder"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#glomerulonephritis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#kidney_disease"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#blood"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#thyroiditis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#thyroid_gland"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#anemia"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#kawasaki"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#acquired_heart_disease"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#neutropenia"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#white_blood_cells"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#planitis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#plana"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#pemphigus"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#viral"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#psoriasis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#skin_disease"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#rheumatic_fever"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#streptococcus_bacteria"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#strep_throat"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hypothyroidism"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#thyroid_hormone"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#blood_vessels"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#insulin"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cells"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#vasculitis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dementia"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#brain"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#asthma"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#bronchial_tubes"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#pneumonia"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#viral_pneumonia"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#breast"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#tumor"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cancer_tumors"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#patient"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#breasts"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#breast_tissue"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#chest"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#tumors"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#metastasis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#microbes"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#lymph_nodes"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#mumps"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#viral_illness"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#meningitis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#common_infection"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#bacterium"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#laryngitis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#voice_box"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cancer_diagnosed"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#tumor_tissue"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#skin_disorder"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#eczema"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#lungs"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#brain_disorder"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#human_immunodeficiency_virus"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#brain_cells"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#bowel_movements"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#blood_cells"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#metabolism"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#chemical"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#flu"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#heart_disease"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hepatitis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hepatitis_c"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#blood_borne_infection"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#avian_flu"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#stomach_flu"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cold_influenza"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#influenza_viruses"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cancer_diagnosis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#herpes_virus"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sleep"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#skin_cells"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#plaque_psoriasis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#psoriatic_arthritis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#arthritis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#breastbone"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#schizophrenia"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#genital_herpes"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#bacterial_infection"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hyperthyroidism"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#throat"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sore_throat"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#swine_flu"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#respiratory_disease"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#viruses"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#thyroid_hormones"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#diabetes"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#viral_infection"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#harmful_virus"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#stroke"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#mosquitoes"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#brucellosis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#infected_dogs"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#infected_mosquito"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#common_warm_wet_areas_world"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#rare_united_states"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#presence_efficient_vectors_mosquito_aedes_albopictus_temperate_regions_italy_infected_european_country"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#non_specific_signs_symptoms_df_incidence_underestimated_non_endemic_countries_risk_severe_forms_substantial"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#august_november_df_patients_males_age_infectious_disease_clinic_university_bari_southern_italy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#common_clinical_features_acute_febrile_syndrome_headache_retro_orbital_pain_rash_patients_manifestations_gum_bleeding"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#serum_samples_dv_antibodies_rna_detection_regional_arbovirosis_reference_laboratory"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#viral_rna_patients_dv_seroconversion_cases"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#paper_importance_clinical_alert_dengue_non_endemic_countries"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever_different_related_viruses"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dengue_den_gee_fever_similar_viruses_genus_aedes_common_tropical_subtropical_areas"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever_df_arbovirosis_dengue_viruses_dv_responsible_number_travel_related_acute_febrile_illnesses_due_growth_climate_changes_viremic_travellers_improved_laboratory_diagnosis"/></Declaration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#dengue"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#dengue"/><NamedIndividual IRI="http://test.org/intel.owl#common_warm_wet_areas_world"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#dengue"/><NamedIndividual IRI="http://test.org/intel.owl#rare_united_states"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_by"/><NamedIndividual IRI="http://test.org/intel.owl#dengue"/><NamedIndividual IRI="http://test.org/intel.owl#mosquitoes"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#caused_by"/><NamedIndividual IRI="http://test.org/intel.owl#dengue"/><NamedIndividual IRI="http://test.org/intel.owl#infected_mosquito"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#dengue"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#microorganism"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_specifically_recommended_are_developing"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/><NamedIndividual IRI="http://test.org/intel.owl#influenza"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#causes_is"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#does_not_seem_be_easily_passed"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/><NamedIndividual IRI="http://test.org/intel.owl#person"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/><NamedIndividual IRI="http://test.org/intel.owl#pneumonia"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/><NamedIndividual IRI="http://test.org/intel.owl#herpes_virus"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#be_transmitted"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/><NamedIndividual IRI="http://test.org/intel.owl#person"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#ingesting"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#doesn_t_wash_using_transfer"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#makes_bursts_killing_set"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_usually_establish"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cancer_diagnosis"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#used_decrease"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_most"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_most"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cancer_diagnosed"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#caused_by"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#presence_efficient_vectors_mosquito_aedes_albopictus_temperate_regions_italy_infected_european_country"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#caused_by"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#viral_rna_patients_dv_seroconversion_cases"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#account"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#are_classified_according"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_found"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#lungs"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#have_limited"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_broken_begun_invade"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#breast"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#have"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_spread"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#lymph_nodes"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_spread_lymph"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#lungs"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#chest"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#uses_destroy"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#tumor_tissue"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_broken_has_invaded"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#breast"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#non_specific_signs_symptoms_df_incidence_underestimated_non_endemic_countries_risk_severe_forms_substantial"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#august_november_df_patients_males_age_infectious_disease_clinic_university_bari_southern_italy"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#common_clinical_features_acute_febrile_syndrome_headache_retro_orbital_pain_rash_patients_manifestations_gum_bleeding"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#serum_samples_dv_antibodies_rna_detection_regional_arbovirosis_reference_laboratory"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#paper_importance_clinical_alert_dengue_non_endemic_countries"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_usually_treated_surgically_removing"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#tumor"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#similar_to"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#evans_syndrome"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#evans_syndrome"/><NamedIndividual IRI="http://test.org/intel.owl#autoimmune_disorder"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#autoimmune_disorder"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#often_follows"/><NamedIndividual IRI="http://test.org/intel.owl#autoimmune_disorder"/><NamedIndividual IRI="http://test.org/intel.owl#viral"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_by"/><NamedIndividual IRI="http://test.org/intel.owl#autoimmune_disorder"/><NamedIndividual IRI="http://test.org/intel.owl#small_blood_vessels"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#small_blood_vessels"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#person"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#have"/><NamedIndividual IRI="http://test.org/intel.owl#person"/><NamedIndividual IRI="http://test.org/intel.owl#diarrhea"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#had_been_reported_get"/><NamedIndividual IRI="http://test.org/intel.owl#person"/><NamedIndividual IRI="http://test.org/intel.owl#avian_flu"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#gets"/><NamedIndividual IRI="http://test.org/intel.owl#person"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#easily_upset"/><NamedIndividual IRI="http://test.org/intel.owl#person"/><NamedIndividual IRI="http://test.org/intel.owl#person"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#do_decrease"/><NamedIndividual IRI="http://test.org/intel.owl#person"/><NamedIndividual IRI="http://test.org/intel.owl#heart_disease"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#diarrhea"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#diarrhea"/><NamedIndividual IRI="http://test.org/intel.owl#bowel_movements"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#myocarditis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#similar_to"/><NamedIndividual IRI="http://test.org/intel.owl#myocarditis"/><NamedIndividual IRI="http://test.org/intel.owl#influenza"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#microorganism"/><NamedIndividual IRI="http://test.org/intel.owl#influenza"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#also_termed_occurred"/><NamedIndividual IRI="http://test.org/intel.owl#influenza"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#mimic"/><NamedIndividual IRI="http://test.org/intel.owl#influenza"/><NamedIndividual IRI="http://test.org/intel.owl#cold_influenza"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#mimic"/><NamedIndividual IRI="http://test.org/intel.owl#influenza"/><NamedIndividual IRI="http://test.org/intel.owl#flu"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#dermatomyositis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#dermatomyositis"/><NamedIndividual IRI="http://test.org/intel.owl#skin"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#skin"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#treating"/><NamedIndividual IRI="http://test.org/intel.owl#skin"/><NamedIndividual IRI="http://test.org/intel.owl#person"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#fibromyalgia"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#fibromyalgia"/><NamedIndividual IRI="http://test.org/intel.owl#chronic_disorder"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#chronic_disorder"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#glomerulonephritis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#glomerulonephritis"/><NamedIndividual IRI="http://test.org/intel.owl#kidney_disease"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#kidney_disease"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#helps"/><NamedIndividual IRI="http://test.org/intel.owl#kidney_disease"/><NamedIndividual IRI="http://test.org/intel.owl#blood"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#blood"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#thyroiditis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#thyroiditis"/><NamedIndividual IRI="http://test.org/intel.owl#thyroid_gland"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#biology"/><NamedIndividual IRI="http://test.org/intel.owl#thyroid_gland"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#produces"/><NamedIndividual IRI="http://test.org/intel.owl#thyroid_gland"/><NamedIndividual IRI="http://test.org/intel.owl#thyroid_hormones"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#anemia"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_having"/><NamedIndividual IRI="http://test.org/intel.owl#anemia"/><NamedIndividual IRI="http://test.org/intel.owl#blood_cells"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#anemia"/><NamedIndividual IRI="http://test.org/intel.owl#autoimmune_disorder"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#kawasaki"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_leading"/><NamedIndividual IRI="http://test.org/intel.owl#kawasaki"/><NamedIndividual IRI="http://test.org/intel.owl#acquired_heart_disease"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#acquired_heart_disease"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#neutropenia"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#neutropenia"/><NamedIndividual IRI="http://test.org/intel.owl#white_blood_cells"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#white_blood_cells"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#planitis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_often_referred"/><NamedIndividual IRI="http://test.org/intel.owl#planitis"/><NamedIndividual IRI="http://test.org/intel.owl#plana"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#plana"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#pemphigus"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#pemphigus"/><NamedIndividual IRI="http://test.org/intel.owl#skin"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#viral"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#psoriasis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_not_not_be_passed"/><NamedIndividual IRI="http://test.org/intel.owl#psoriasis"/><NamedIndividual IRI="http://test.org/intel.owl#person"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_characterized"/><NamedIndividual IRI="http://test.org/intel.owl#psoriasis"/><NamedIndividual IRI="http://test.org/intel.owl#skin_cells"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#psoriasis"/><NamedIndividual IRI="http://test.org/intel.owl#skin_disease"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#psoriasis"/><NamedIndividual IRI="http://test.org/intel.owl#skin_disorder"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#skin_disease"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#rheumatic_fever"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#rheumatic_fever"/><NamedIndividual IRI="http://test.org/intel.owl#streptococcus_bacteria"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#streptococcus_bacteria"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#called_infects"/><NamedIndividual IRI="http://test.org/intel.owl#streptococcus_bacteria"/><NamedIndividual IRI="http://test.org/intel.owl#throat"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#similar_to"/><NamedIndividual IRI="http://test.org/intel.owl#streptococcus_bacteria"/><NamedIndividual IRI="http://test.org/intel.owl#strep_throat"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#strep_throat"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_by"/><NamedIndividual IRI="http://test.org/intel.owl#strep_throat"/><NamedIndividual IRI="http://test.org/intel.owl#bacterial_infection"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#hypothyroidism"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_diagnosed_measuring"/><NamedIndividual IRI="http://test.org/intel.owl#hypothyroidism"/><NamedIndividual IRI="http://test.org/intel.owl#thyroid_hormone"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#thyroid_hormone"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#blood_vessels"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#are_needed_allow"/><NamedIndividual IRI="http://test.org/intel.owl#blood_vessels"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#similar_to"/><NamedIndividual IRI="http://test.org/intel.owl#blood_vessels"/><NamedIndividual IRI="http://test.org/intel.owl#blood"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#insulin"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#insulin"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#growing_targeting_are_needed_allow"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#break"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/><NamedIndividual IRI="http://test.org/intel.owl#tumor"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#growing_targeting"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/><NamedIndividual IRI="http://test.org/intel.owl#blood_vessels"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#start_growing"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/><NamedIndividual IRI="http://test.org/intel.owl#breast"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#damaging_infecting"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/><NamedIndividual IRI="http://test.org/intel.owl#brain"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#are_only_found_lining_has_not_crept"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/><NamedIndividual IRI="http://test.org/intel.owl#lungs"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#hijacking_make"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#vasculitis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#vasculitis"/><NamedIndividual IRI="http://test.org/intel.owl#blood_vessels"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#dementia"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#dementia"/><NamedIndividual IRI="http://test.org/intel.owl#brain"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#biology"/><NamedIndividual IRI="http://test.org/intel.owl#brain"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_by"/><NamedIndividual IRI="http://test.org/intel.owl#brain"/><NamedIndividual IRI="http://test.org/intel.owl#blood"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#regrow"/><NamedIndividual IRI="http://test.org/intel.owl#brain"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#asthma"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#depends"/><NamedIndividual IRI="http://test.org/intel.owl#asthma"/><NamedIndividual IRI="http://test.org/intel.owl#asthma"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#asthma"/><NamedIndividual IRI="http://test.org/intel.owl#bronchial_tubes"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#bronchial_tubes"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#pneumonia"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#leads"/><NamedIndividual IRI="http://test.org/intel.owl#pneumonia"/><NamedIndividual IRI="http://test.org/intel.owl#viral_pneumonia"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#often_starts"/><NamedIndividual IRI="http://test.org/intel.owl#pneumonia"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#viral_pneumonia"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#biology"/><NamedIndividual IRI="http://test.org/intel.owl#breast"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#tumor"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#surrounds"/><NamedIndividual IRI="http://test.org/intel.owl#tumor"/><NamedIndividual IRI="http://test.org/intel.owl#breast"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_composed"/><NamedIndividual IRI="http://test.org/intel.owl#tumor"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#cancer_tumors"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#have"/><NamedIndividual IRI="http://test.org/intel.owl#cancer_tumors"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#patient"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#depends"/><NamedIndividual IRI="http://test.org/intel.owl#patient"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#flat"/><NamedIndividual IRI="http://test.org/intel.owl#patient"/><NamedIndividual IRI="http://test.org/intel.owl#breasts"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#biology"/><NamedIndividual IRI="http://test.org/intel.owl#breasts"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#biology"/><NamedIndividual IRI="http://test.org/intel.owl#breast_tissue"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#helps_confirm"/><NamedIndividual IRI="http://test.org/intel.owl#breast_tissue"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#biology"/><NamedIndividual IRI="http://test.org/intel.owl#chest"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#connects"/><NamedIndividual IRI="http://test.org/intel.owl#chest"/><NamedIndividual IRI="http://test.org/intel.owl#breastbone"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#tumors"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#blocking"/><NamedIndividual IRI="http://test.org/intel.owl#tumors"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#metastasis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#metastasis"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#microorganism"/><NamedIndividual IRI="http://test.org/intel.owl#microbes"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#are_known_increase"/><NamedIndividual IRI="http://test.org/intel.owl#microbes"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#biology"/><NamedIndividual IRI="http://test.org/intel.owl#lymph_nodes"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#distant"/><NamedIndividual IRI="http://test.org/intel.owl#lymph_nodes"/><NamedIndividual IRI="http://test.org/intel.owl#brain"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_mean"/><NamedIndividual IRI="http://test.org/intel.owl#lymph_nodes"/><NamedIndividual IRI="http://test.org/intel.owl#cancer"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#mumps"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#mumps"/><NamedIndividual IRI="http://test.org/intel.owl#viral_illness"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#viral_illness"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#meningitis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#meningitis"/><NamedIndividual IRI="http://test.org/intel.owl#brain"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#common_infection"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_by"/><NamedIndividual IRI="http://test.org/intel.owl#common_infection"/><NamedIndividual IRI="http://test.org/intel.owl#bacterium"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#microorganism"/><NamedIndividual IRI="http://test.org/intel.owl#bacterium"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#was_incorrectly_considered_cause"/><NamedIndividual IRI="http://test.org/intel.owl#bacterium"/><NamedIndividual IRI="http://test.org/intel.owl#flu"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#laryngitis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#laryngitis"/><NamedIndividual IRI="http://test.org/intel.owl#voice_box"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#biology"/><NamedIndividual IRI="http://test.org/intel.owl#voice_box"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#cancer_diagnosed"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#tumor_tissue"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#skin_disorder"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#eczema"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#eczema"/><NamedIndividual IRI="http://test.org/intel.owl#skin"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#biology"/><NamedIndividual IRI="http://test.org/intel.owl#lungs"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#blocks"/><NamedIndividual IRI="http://test.org/intel.owl#lungs"/><NamedIndividual IRI="http://test.org/intel.owl#blood"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#brain_disorder"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_by"/><NamedIndividual IRI="http://test.org/intel.owl#brain_disorder"/><NamedIndividual IRI="http://test.org/intel.owl#human_immunodeficiency_virus"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#microorganism"/><NamedIndividual IRI="http://test.org/intel.owl#human_immunodeficiency_virus"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#brain_cells"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#damaging"/><NamedIndividual IRI="http://test.org/intel.owl#brain_cells"/><NamedIndividual IRI="http://test.org/intel.owl#cells"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#bowel_movements"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#blood_cells"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#metabolism"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_defined"/><NamedIndividual IRI="http://test.org/intel.owl#metabolism"/><NamedIndividual IRI="http://test.org/intel.owl#chemical"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#chemical"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#flu"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#are_more"/><NamedIndividual IRI="http://test.org/intel.owl#flu"/><NamedIndividual IRI="http://test.org/intel.owl#flu"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_little"/><NamedIndividual IRI="http://test.org/intel.owl#flu"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#flu"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#heart_disease"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#hepatitis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_by"/><NamedIndividual IRI="http://test.org/intel.owl#hepatitis"/><NamedIndividual IRI="http://test.org/intel.owl#person"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#hepatitis"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#hepatitis_c"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#hepatitis_c"/><NamedIndividual IRI="http://test.org/intel.owl#blood_borne_infection"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#blood_borne_infection"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#avian_flu"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#stomach_flu"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_by"/><NamedIndividual IRI="http://test.org/intel.owl#stomach_flu"/><NamedIndividual IRI="http://test.org/intel.owl#influenza"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#cold_influenza"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#microorganism"/><NamedIndividual IRI="http://test.org/intel.owl#influenza_viruses"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#mimic"/><NamedIndividual IRI="http://test.org/intel.owl#influenza_viruses"/><NamedIndividual IRI="http://test.org/intel.owl#pneumonia"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#cancer_diagnosis"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#microorganism"/><NamedIndividual IRI="http://test.org/intel.owl#herpes_virus"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#sleep"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#need_fights"/><NamedIndividual IRI="http://test.org/intel.owl#sleep"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#skin_cells"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#plaque_psoriasis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_most"/><NamedIndividual IRI="http://test.org/intel.owl#plaque_psoriasis"/><NamedIndividual IRI="http://test.org/intel.owl#psoriasis"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#psoriatic_arthritis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#psoriatic_arthritis"/><NamedIndividual IRI="http://test.org/intel.owl#skin"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#psoriatic_arthritis"/><NamedIndividual IRI="http://test.org/intel.owl#arthritis"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#arthritis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#arthritis"/><NamedIndividual IRI="http://test.org/intel.owl#skin"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#biology"/><NamedIndividual IRI="http://test.org/intel.owl#breastbone"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#schizophrenia"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#schizophrenia"/><NamedIndividual IRI="http://test.org/intel.owl#person"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#genital_herpes"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#genital_herpes"/><NamedIndividual IRI="http://test.org/intel.owl#viral"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#bacterial_infection"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#hyperthyroidism"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#hyperthyroidism"/><NamedIndividual IRI="http://test.org/intel.owl#thyroid_hormone"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#hyperthyroidism"/><NamedIndividual IRI="http://test.org/intel.owl#thyroid_gland"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#biology"/><NamedIndividual IRI="http://test.org/intel.owl#throat"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#sore_throat"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_by"/><NamedIndividual IRI="http://test.org/intel.owl#sore_throat"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#swine_flu"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#swine_flu"/><NamedIndividual IRI="http://test.org/intel.owl#respiratory_disease"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#respiratory_disease"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_by"/><NamedIndividual IRI="http://test.org/intel.owl#respiratory_disease"/><NamedIndividual IRI="http://test.org/intel.owl#viruses"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#microorganism"/><NamedIndividual IRI="http://test.org/intel.owl#viruses"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_by"/><NamedIndividual IRI="http://test.org/intel.owl#viruses"/><NamedIndividual IRI="http://test.org/intel.owl#virus"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#nn"/><NamedIndividual IRI="http://test.org/intel.owl#thyroid_hormones"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#diabetes"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#confer"/><NamedIndividual IRI="http://test.org/intel.owl#diabetes"/><NamedIndividual IRI="http://test.org/intel.owl#person"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#damage"/><NamedIndividual IRI="http://test.org/intel.owl#diabetes"/><NamedIndividual IRI="http://test.org/intel.owl#blood_vessels"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#viral_infection"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#viral_infection"/><NamedIndividual IRI="http://test.org/intel.owl#harmful_virus"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#microorganism"/><NamedIndividual IRI="http://test.org/intel.owl#harmful_virus"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#stroke"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is"/><NamedIndividual IRI="http://test.org/intel.owl#stroke"/><NamedIndividual IRI="http://test.org/intel.owl#blood"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#creature"/><NamedIndividual IRI="http://test.org/intel.owl#mosquitoes"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#mosquitoes"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_den_gee_fever_similar_viruses_genus_aedes_common_tropical_subtropical_areas"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#caused_by"/><NamedIndividual IRI="http://test.org/intel.owl#mosquitoes"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_den_gee_fever_similar_viruses_genus_aedes_common_tropical_subtropical_areas"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#brucellosis"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#is_caused_by"/><NamedIndividual IRI="http://test.org/intel.owl#brucellosis"/><NamedIndividual IRI="http://test.org/intel.owl#infected_dogs"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#caused_by"/><NamedIndividual IRI="http://test.org/intel.owl#brucellosis"/><NamedIndividual IRI="http://test.org/intel.owl#infected_dogs"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#cause"/><NamedIndividual IRI="http://test.org/intel.owl#infected_dogs"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#cause"/><NamedIndividual IRI="http://test.org/intel.owl#infected_mosquito"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#common_warm_wet_areas_world"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#rare_united_states"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#cause"/><NamedIndividual IRI="http://test.org/intel.owl#presence_efficient_vectors_mosquito_aedes_albopictus_temperate_regions_italy_infected_european_country"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#non_specific_signs_symptoms_df_incidence_underestimated_non_endemic_countries_risk_severe_forms_substantial"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#august_november_df_patients_males_age_infectious_disease_clinic_university_bari_southern_italy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#common_clinical_features_acute_febrile_syndrome_headache_retro_orbital_pain_rash_patients_manifestations_gum_bleeding"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#serum_samples_dv_antibodies_rna_detection_regional_arbovirosis_reference_laboratory"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#cause"/><NamedIndividual IRI="http://test.org/intel.owl#viral_rna_patients_dv_seroconversion_cases"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#paper_importance_clinical_alert_dengue_non_endemic_countries"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever_df_arbovirosis_dengue_viruses_dv_responsible_number_travel_related_acute_febrile_illnesses_due_growth_climate_changes_viremic_travellers_improved_laboratory_diagnosis"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever"/><NamedIndividual IRI="http://test.org/intel.owl#non_specific_signs_symptoms_df_incidence_underestimated_non_endemic_countries_risk_severe_forms_substantial"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#cause_symptom"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever"/><NamedIndividual IRI="http://test.org/intel.owl#common_clinical_features_acute_febrile_syndrome_headache_retro_orbital_pain_rash_patients_manifestations_gum_bleeding"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#caused_by"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever_different_related_viruses"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#disease_is"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever_different_related_viruses"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#disease"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever_different_related_viruses"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#cause"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_den_gee_fever_similar_viruses_genus_aedes_common_tropical_subtropical_areas"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#symptom"/><NamedIndividual IRI="http://test.org/intel.owl#dengue_fever_df_arbovirosis_dengue_viruses_dv_responsible_number_travel_related_acute_febrile_illnesses_due_growth_climate_changes_viremic_travellers_improved_laboratory_diagnosis"/></ClassAssertion>
+
+</Ontology>

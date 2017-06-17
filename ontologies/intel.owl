@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+]>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://test.org/intel.owl" ontologyIRI="http://test.org/intel.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+<Prefix name="" IRI="http://test.org/intel.owl"/>
+<Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+<Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+<Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+<Prefix name="intel" IRI="http://test.org/intel.owl"/>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">51.0</Literal></Annotation>
+
+<Declaration><Class IRI="http://test.org/intel.owl#hardware"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#network"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#computer_methodology"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#pic"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#microcontroller"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#network_algorithems"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#ai"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_systems"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#agent"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#machine_learning"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#intelligent_agent"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#operational_symantics"/></Declaration>
+
+
+
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#pic"/><Class IRI="http://test.org/intel.owl#hardware"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#microcontroller"/><Class IRI="http://test.org/intel.owl#hardware"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#network_algorithems"/><Class IRI="http://test.org/intel.owl#hardware"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#ai"/><Class IRI="http://test.org/intel.owl#computer_methodology"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_systems"/><Class IRI="http://test.org/intel.owl#computer_methodology"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#agent"/><Class IRI="http://test.org/intel.owl#computer_methodology"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#machine_learning"/><Class IRI="http://test.org/intel.owl#computer_methodology"/></SubClassOf>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#ai"/><NamedIndividual IRI="http://test.org/intel.owl#intelligent_agent"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#ai"/><NamedIndividual IRI="http://test.org/intel.owl#operational_symantics"/></ClassAssertion>
+
+</Ontology>

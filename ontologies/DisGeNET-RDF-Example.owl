@@ -1,0 +1,406 @@
+# DisGeNET-RDF v4.0.0 CONTENT
+# Main concepts: 
+#   Gene-Disease Association 
+#   Disease
+#   Gene
+#   Pathway
+#   Panther Class
+#   MeSH Disease Class
+#   DO Class
+#   HPO Class
+#   UMLS Semantic Type  
+#   Phenotype
+#
+# The disease-phenotype annotation from HPO:
+#   OMIM diseases    
+#   ORPHANET diseases  
+#   DECIPHER diseases  
+#
+# Minimal description for secondary concepts: 
+#   PubMed Article
+#   SNP
+#   Source
+#   DisGeNET Score      
+#   Protein     
+#   Gene Symbol  
+#   DisGeNET Disease Specificity Index 
+#   DisGeNET Disease Pleiotropy Index
+
+
+# RDF
+# NAMESPACES
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix up:      <http://purl.uniprot.org/core/> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ncit:    <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix sio:     <http://semanticscience.org/resource/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+
+# TRIPLES
+# Gene-Disease Association
+<http://rdf.disgenet.org/resource/gda/DGN9f7e6a48294b81f65335d48d14c73c99>
+      a       sio:SIO_001122 ;
+      rdfs:comment "Association between the gene [ncbigene:54899] and the disease [umls:C0024141] integrated into DisGeNET. Gene-disease associations are identified by the DisGeNET ID."@en ;
+      rdfs:label "PX domain containing serine/threonine kinase [ncbigene:54899] - Lupus Erythematosus, Systemic [umls:C0024141] Association [disgenet:DGN9f7e6a48294b81f65335d48d14c73c99]"@en ;
+      dcterms:date "2008"^^xsd:gYear ;
+      dcterms:description "[Genome-wide association scan in women with systemic lupus erythematosus identifies susceptibility variants in ITGAM, PXK, KIAA1542 and other loci.]. Sentence from MEDLINE/PubMed, a database of the U.S. National Library of Medicine."@en ;
+      dcterms:identifier "disgenet:DGN9f7e6a48294b81f65335d48d14c73c99"^^xsd:string ;
+      dcterms:title "PX domain containing serine/threonine kinase [ncbigene:54899] - Lupus Erythematosus, Systemic [umls:C0024141] Association"@en ;
+      up:organism <http://purl.uniprot.org/taxonomy/9606> ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/geneDiseaseAssociation> ;
+      sio:SIO_000001 <http://identifiers.org/dbsnp/rs6445975> ;
+      sio:SIO_000216 <http://rdf.disgenet.org/resource/gda/ncbigene:54899_umls:C0024141_association_DisGeNETScore> ;
+      sio:SIO_000253 <http://rdf.disgenet.org/v4.0.0/void/gwascat-2016> ;
+      sio:SIO_000300 "[NA] association type label in the original source"@en ;
+      sio:SIO_000628 <http://identifiers.org/ncbigene/54899> , <http://linkedlifedata.com/resource/umls/id/C0024141> ;
+      sio:SIO_000772 <http://identifiers.org/pubmed/18204446> .
+
+# Disease
+## Type: disease (sio:SIO_010299)
+<http://linkedlifedata.com/resource/umls/id/C0034072>
+      a       ncit:C7057 , sio:SIO_010299 ;
+      rdfs:comment "Disease [umls:C0034072] associated with at least one gene in DisGeNET. Diseases in DisGeNET are identified by the UMLS CUI."@en ;
+      rdfs:label "Cor pulmonale [umls:C0034072]"@en ;
+      rdfs:subClassOf <http://identifiers.org/doid/DOID:7> ;
+      dcterms:identifier "umls:C0034072"^^xsd:string ;
+      dcterms:title "Cor pulmonale"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/disease> ;
+      sio:SIO_000008 <http://biotop.googlecode.com/svn/trunk/umlssn.owl#T047> ;
+      sio:SIO_000095 <http://rdf.imim.es/rh-mesh.owl#C14> ;
+      sio:SIO_000332 <http://dbpedia.org/resource/Cor_pulmonale> , <http://linkedlifedata.com/resource/umls/id/C0034072> , <http://id.nlm.nih.gov/mesh/D011660> ;
+      skos:exactMatch <http://identifiers.org/doid/DOID:8515> , <http://identifiers.org/sider.effect/C0034072> , <http://id.nlm.nih.gov/mesh/D011660> , <http://bio2rdf.org/mesh:D011660> , <http://wifo5-04.informatik.uni-mannheim.de/sider/page/side_effects/C0034072> , <http://disease-ontology.org/term/DOID:8515> , <http://linkedlifedata.com/resource/diseaseontology/id/DOID:8515> , <http://dbpedia.org/resource/Cor_pulmonale> , <http://identifiers.org/mesh/D011660> , <http://bio2rdf.org/umls:C0034072> , <http://purl.obolibrary.org/obo/DOID_8515> , <http://linkedct.org/resource/condition/Cor_pulmonale/> , <http://identifiers.org/ctd.disease/D011660> , <http://bioportal.bioontology.org/ontologies/DOID/DOID:8515> .
+
+## Type: group (ncit:C43359)
+<http://linkedlifedata.com/resource/umls/id/C0004623>
+      a       ncit:C7057 , ncit:C43359 ;
+      rdfs:comment "Disease group [umls:C0004623] associated with at least one gene in DisGeNET. Disease groups in DisGeNET are identified by the UMLS CUI."@en ;
+      rdfs:label "Bacterial Infections [umls:C0004623]"@en ;
+      rdfs:subClassOf <http://identifiers.org/doid/DOID:0050117> ;
+      dcterms:identifier "umls:C0004623"^^xsd:string ;
+      dcterms:title "Bacterial Infections"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/disease> ;
+      sio:SIO_000008 <http://biotop.googlecode.com/svn/trunk/umlssn.owl#T047> ;
+      sio:SIO_000095 <http://rdf.imim.es/rh-mesh.owl#C01> ;
+      sio:SIO_000332 <http://linkedlifedata.com/resource/umls/id/C0004623> , <http://dbpedia.org/resource/Bacterial_Infections> , <http://id.nlm.nih.gov/mesh/D001424> ;
+      skos:exactMatch <http://dbpedia.org/resource/Bacterial_Infections> , <http://bio2rdf.org/umls:C0004623> , <http://identifiers.org/ncit/C2890> , <http://purl.bioontology.org/ontology/NCIT/C2890> , <http://id.nlm.nih.gov/mesh/D001424> , <http://purl.obolibrary.org/obo/DOID_104> , <http://disease-ontology.org/term/DOID:104> , ncit:C2890 , <http://identifiers.org/doid/DOID:104> , <http://identifiers.org/sider.effect/C0004623> , <http://identifiers.org/ctd.disease/D001424> , <http://identifiers.org/mesh/D001424> , <http://bio2rdf.org/mesh:D001424> , <http://bioportal.bioontology.org/ontologies/DOID/DOID:104> , <http://linkedlifedata.com/resource/diseaseontology/id/DOID:104> , <http://wifo5-04.informatik.uni-mannheim.de/sider/page/side_effects/C0004623> , <http://linkedct.org/resource/condition/Bacterial_Infections/> .
+
+## Type: phenotype (sio:SIO_010056)
+<http://linkedlifedata.com/resource/umls/id/C0027080>
+      a       ncit:C7057 , sio:SIO_010056 ;
+      rdfs:comment "Phenotype [umls:C0027080] associated with at least one gene in DisGeNET. Phenotypes in DisGeNET are identified by the UMLS CUI."@en ;
+      rdfs:label "Myoglobinuria [umls:C0027080]"@en ;
+      rdfs:subClassOf <http://purl.obolibrary.org/obo/HP_0001939> , <http://purl.obolibrary.org/obo/HP_0000119> ;
+      dcterms:identifier "umls:C0027080"^^xsd:string ;
+      dcterms:title "Myoglobinuria"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/disease> ;
+      sio:SIO_000008 <http://biotop.googlecode.com/svn/trunk/umlssn.owl#T033> ;
+      sio:SIO_000095 <http://rdf.imim.es/rh-mesh.owl#C05> ;
+      sio:SIO_000332 <http://id.nlm.nih.gov/mesh/D009212> ;
+      skos:exactMatch <http://identifiers.org/ncit/C114705> , <http://identifiers.org/ctd.disease/D009212> , <http://wifo5-04.informatik.uni-mannheim.de/sider/page/side_effects/C0027080> , <http://linkedct.org/resource/condition/Myoglobinuria/> , <http://bio2rdf.org/umls:C0027080> , ncit:C114705 , <http://dbpedia.org/resource/Myoglobinuria> , <http://purl.bioontology.org/ontology/NCIT/C114705> , <http://purl.obolibrary.org/obo/HP_0002913> , <http://id.nlm.nih.gov/mesh/D009212> , <http://linkedlifedata.com/resource/phenotype/id/HP:0002913> , <http://purl.bioontology.org/ontology/ICD9CM/791.3> , <http://bio2rdf.org/mesh:D009212> , <http://identifiers.org/mesh/D009212> , <http://identifiers.org/sider.effect/C0027080> .
+
+## Cross-references (xref) to other disease terminologies:  
+## xref to MeSH
+<http://identifiers.org/mesh/D008223>
+      a       ncit:C7057 ;
+      rdfs:comment "MeSH disease [mesh:D008223] cross-referenced to at least one disease (UMLS CUI) in DisGeNET. MeSH-UMLS cross-references extracted from the UMLS Metathesaurus."@en ;
+      rdfs:label "Lymphoma [mesh:D008223]"@en ;
+      dcterms:identifier "mesh:D008223"^^xsd:string ;
+      dcterms:title "Lymphoma"@en ;
+      skos:exactMatch <http://id.nlm.nih.gov/mesh/D008223> ;
+      foaf:homepage <https://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&term=D008223> .
+   
+## xref to OMIM
+<http://identifiers.org/omim/606445>
+      a       ncit:C7057 ;
+      rdfs:comment "OMIM disease [omim:606445] cross-referenced to at least one disease (UMLS CUI) in DisGeNET. OMIM-UMLS cross-references extracted from the UMLS Metathesaurus."@en ;
+      rdfs:label "PERSISTENT POLYCLONAL B-CELL LYMPHOCYTOSIS [omim:606445]"@en ;
+      dcterms:identifier "omim:606445"^^xsd:string ;
+      dcterms:title "PERSISTENT POLYCLONAL B-CELL LYMPHOCYTOSIS"@en ;
+      foaf:homepage <http://www.omim.org/entry/606445.html> .
+
+## xref to Human Disease Ontology
+<http://identifiers.org/doid/DOID:7642>
+      a       ncit:C7057 ;
+      rdfs:comment "DOID disease [doid:7642] cross-referenced to at least one disease (UMLS CUI) in DisGeNET. DOID-UMLS cross-references extracted from the Human Disease Ontology (DO)."@en ;
+      rdfs:label "cholangiolocellular carcinoma [doid:7642]"@en ;
+      dcterms:identifier "doid:7642"^^xsd:string ;
+      dcterms:title "cholangiolocellular carcinoma"@en ;
+      skos:exactMatch <http://bioportal.bioontology.org/ontologies/DOID/DOID:7642> , <http://purl.obolibrary.org/obo/DOID_7642> ;
+      foaf:homepage <http://www.disease-ontology.org/?id=DOID:7642> .
+      
+## xref to NCI Thesaurus
+<http://identifiers.org/ncit/C84492>
+      a       ncit:C7057 ;
+      rdfs:comment "NCIT disease [ncit:C84492] cross-referenced to at least one disease (UMLS CUI) in DisGeNET. NCIT-UMLS cross-references extracted from the UMLS Metathesaurus."@en ;
+      rdfs:label "PDA [ncit:C84492]"@en ;
+      dcterms:identifier "ncit:C84492"^^xsd:string ;
+      dcterms:title "PDA"@en ;
+      skos:exactMatch ncit:C84492 ;
+      foaf:homepage <http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C84492&ns=NCI_Thesaurus> .
+
+## xref to Orphanet
+<http://identifiers.org/orphanet/282196>
+      a       ncit:C7057 ;
+      rdfs:comment "Orphanet disease [orphanet:282196] cross-referenced to at least one disease (UMLS CUI) in DisGeNET. Orphanumber-UMLS cross-references extracted from the Orphanet Rare Disease Ontology (ORDO)."@en ;
+      rdfs:label "Autoimmune polyendocrinopathy [orphanet:282196]"@en ;
+      dcterms:identifier "orphanet:282196"^^xsd:string ;
+      dcterms:title "Autoimmune polyendocrinopathy"@en ;
+      skos:exactMatch <http://www.orpha.net/ORDO/Orphanet_282196> .
+
+## xref to ICD9CM
+<http://purl.bioontology.org/ontology/ICD9CM/372.64>
+      a       ncit:C7057 ;
+      rdfs:comment "ICD9CM disease [icd9cm:372.64] cross-referenced to at least one disease (UMLS CUI) in DisGeNET. ICD9CM-UMLS cross-references extracted from the UMLS Metathesaurus."@en ;
+      rdfs:label "Scarring of conjunctiva [icd9cm:372.64]"@en ;
+      dcterms:identifier "icd9cm:372.64"^^xsd:string ;
+      dcterms:title "Scarring of conjunctiva, [PT] term type"@en ;
+      foaf:homepage <http://www.cms.gov/medicare-coverage-database/staticpages/icd-9-code-lookup.aspx?KeyWord=372.64> .
+   
+## xref to EFO
+<http://www.ebi.ac.uk/efo/EFO_1000028>
+      a       ncit:C7057 ;
+      rdfs:comment "EFO disease [efo:1000028] cross-referenced to at least one disease (UMLS CUI) in DisGeNET. EFO-UMLS cross-references extracted from the Experimental Factor Ontology (EFO)."@en ;
+      rdfs:label "ependymoma [efo:1000028]"@en ;
+      dcterms:identifier "efo:1000028"^^xsd:string ;
+      dcterms:title "ependymoma"@en ;
+      skos:exactMatch <http://identifiers.org/efo/1000028> .
+
+   
+# Gene
+<http://identifiers.org/ncbigene/128674>
+      a       ncit:C16612 ;
+      rdfs:comment "Gene [ncbigene:128674] associated with at least one disease in DisGeNET. Genes are identified by the NCBI Entrez Gene ID from the NCBI Gene Database, a database of the U.S. National Library of Medicine."@en ;
+      rdfs:label "prokineticin receptor 2 [ncbigene:128674]"@en ;
+      rdfs:seeAlso <http://biogps.org/#goto=genereport&id=128674> , <http://dga.nubic.northwestern.edu/pages/result.php?st=g2d&qn=PROKR2> , <http://clinicaltrials.gov/ct2/results?term=PROKR2> , <http://cancer.sanger.ac.uk/cosmic/search?q=PROKR2> , <http://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=PROKR2> , <http://projects.biotec.tu-dresden.de/gogene/gogene/Search/Detailed?t=biogps&type=Details&documentIdFragment=128674> , <http://www.snpedia.com/index.php/PROKR2> , <http://monarchinitiative.org/gene/NCBIGene:128674> , <https://decipher.sanger.ac.uk/search?q=PROKR2> ;
+      dcterms:identifier "ncbigene:128674"^^xsd:string ;
+      dcterms:title "prokineticin receptor 2"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/gene> ;
+      sio:SIO_000062 <http://identifiers.org/reactome/R-HSA-162582> ;
+      sio:SIO_000095 <http://rdf.disgenet.org/resource/panther.classification/PC00197> ;
+      sio:SIO_000205 <http://identifiers.org/hgnc.symbol/PROKR2> ;
+      sio:SIO_000216 <http://rdf.disgenet.org/resource/disease.pleiotropy/ncbigene:128674_DPI_DisGeNETIndex> , <http://rdf.disgenet.org/resource/disease.specificity/ncbigene:128674_DSI_DisGeNETIndex> ;
+      sio:SIO_010078 <http://identifiers.org/uniprot/Q8NFJ6> ;
+      skos:exactMatch <http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/PROKR2> , <http://identifiers.org/genewiki/128674> , <http://bio2rdf.org/geneid:128674> , <http://bio2rdf.org/genecards:PROKR2> , <http://linkedlifedata.com/resource/entrezgene/id/128674> , <http://identifiers.org/ctd.gene/128674> , <http://identifiers.org/genecards/PROKR2> , <http://bio2rdf.org/genatlas:PROKR2> , <http://linkedlifedata.com/resource/diseasome-gene/PROKR2> , <http://identifiers.org/genatlas/PROKR2> , <http://rdf.ncbi.nlm.nih.gov/pubchem/gene/GID128674> .
+
+
+# Pathway
+<http://identifiers.org/reactome/R-HSA-1640170>
+      a       ncit:C20633 ;
+      rdfs:comment "Pathway [reactome:R-HSA-1640170] associated with at least one gene in DisGeNET. Pathways are identified by the Reactome ID."@en ; 
+      rdfs:label "Cell Cycle [reactome:R-HSA-1640170]"@en ;
+      dcterms:identifier "reactome:R-HSA-1640170"^^xsd:string ;
+      dcterms:title "Cell Cycle"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/pathway> ;
+      skos:exactMatch <http://bio2rdf.org/reactome:115566> .
+
+
+# Panther Class
+<http://rdf.disgenet.org/resource/panther.classification/PC00210>
+      a       rdfs:Class ;
+      rdfs:comment "PANTHER class [panther:PC00210] in which at least one gene in DisGeNET is classified to. PANTHER Classes are identified by the PANTHER ID." ;
+      rdfs:isDefinedBy <http://neurolex.org/wiki/Category:Resource:PANTHER> ;
+      rdfs:label "storage protein [panther:PC00210]"@en ;
+      rdfs:subClassOf sio:SIO_000275 ;
+      dcterms:identifier "panther:PC00210"^^xsd:string ;
+      dcterms:title "storage protein"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/pantherClass> ;
+      foaf:homepage "http://www.pantherdb.org/chart/summary/pantherChart.jsp?filterLevel=1&chartType=1&listType=1&type=5&species=Homo sapiens" .
+
+      
+# MeSH Disease Class
+<http://rdf.imim.es/rh-mesh.owl#C10>
+      a       rdfs:Class ;
+      rdfs:comment "MeSH disease class [mesh:C10] in which at least one disease in DisGeNET is classified to. MeSH disease classes are identified by the MeSH Tree Number."@en ;
+      rdfs:isDefinedBy ncit:C82845 ;
+      rdfs:label "Nervous System Diseases [mesh:C10]"@en ;
+      rdfs:subClassOf sio:SIO_000133 ;
+      dcterms:identifier "mesh:C10"^^xsd:string ;
+      dcterms:title "Nervous System Diseases"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/meshClass> ;
+      skos:exactMatch <http://purl.bioontology.org/ontology/MSH/D009422> , <http://id.nlm.nih.gov/mesh/D009422> ;
+      foaf:homepage <http://www.nlm.nih.gov/mesh/2016/mesh_trees/C10.html> .
+
+
+# DO Class      
+<http://identifiers.org/doid/DOID:225>
+      a       rdfs:Class ;
+      rdfs:comment "Disease Ontology (DO) class [do:225] in which at least one disease in DisGeNET is classified to. DO classes are identified by the DO identifier."@en ;
+      rdfs:isDefinedBy <http://purl.obolibrary.org/obo/doid.owl> ;
+      rdfs:label "syndrome [do:225]"@en ;
+      rdfs:subClassOf sio:SIO_000275 ;
+      dcterms:identifier "do:225"^^xsd:string ;
+      dcterms:title "syndrome"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/doClass> ;
+      skos:exactMatch <http://purl.obolibrary.org/obo/DOID_225> , <http://bioportal.bioontology.org/ontologies/DOID/DOID:225> ;
+      foaf:homepage <http://www.disease-ontology.org/?id=DOID:225> .
+
+
+# HPO Class
+<http://purl.obolibrary.org/obo/HP_0000478>
+      a       rdfs:Class ;
+      rdfs:comment "Human Phenotype Ontology (HPO) class [hp:0000478] in which at least one disease in DisGeNET is classified to. HPO classes are identified by the HPO identifier."@en ;
+      rdfs:isDefinedBy <http://purl.obolibrary.org/obo/hp.owl> ;
+      rdfs:label "Abnormality of the eye [hp:0000478]"@en ;
+      rdfs:subClassOf sio:SIO_000275 ;
+      dcterms:identifier "hp:0000478"^^xsd:string ;
+      dcterms:title "Abnormality of the eye"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/hpoClass> ;
+      skos:exactMatch <http://linkedlifedata.com/resource/phenotype/id/HP:0000478> ;
+      foaf:homepage <http://www.human-phenotype-ontology.org/hpoweb/showterm?id=HP:0000478> .
+
+
+# UMLS Semantic Type
+<http://biotop.googlecode.com/svn/trunk/umlssn.owl#T191>
+      a       rdfs:Class ;
+      rdfs:comment "UMLS Semantic Type (STY) [umls:T191] annotated to at least one disease in DisGeNET. STYs are identified by the UMLS TUI."@en ;
+      rdfs:isDefinedBy ncit:C43817 ;
+      rdfs:label "Neoplastic Process [umls:T191]"@en ;
+      rdfs:subClassOf sio:SIO_000326 ;
+      dcterms:identifier "umls:T191"^^xsd:string ;
+      dcterms:title "Neoplastic Process"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/umlsSTY> ;
+      skos:exactMatch <http://purl.bioontology.org/ontology/STY/T191> , <http://identifiers.org/mesh/T191> , <http://bio2rdf.org/mesh:T191> ;
+      foaf:homepage <http://www.nlm.nih.gov/research/umls/META3_current_semantic_types.html> .
+
+
+# Phenotype
+<http://purl.obolibrary.org/obo/HP_0010954>
+      a       sio:SIO_010056 ;
+      rdfs:comment "Phenotype [hp:0010954] from the Human Phenotype Ontology (HPO). Phenotypes are identified by the HPO ID. HPID-UMLS cross-references extracted from the HPO."@en ;
+      rdfs:label "Hypoplastic right heart [hp:0010954]"@en ;
+      dcterms:identifier "hp:0010954"^^xsd:string ;
+      dcterms:title "Hypoplastic right heart"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/phenotype> ;
+      skos:exactMatch <http://identifiers.org/hpo/HP:0010954> , <http://linkedlifedata.com/resource/phenotype/id/HP:0010954> ;
+      foaf:homepage <http://www.human-phenotype-ontology.org/hpoweb/showterm?id=HP:0010954> .
+
+
+
+# The disease-phenotype annotation from HPO
+# OMIM diseases
+<http://identifiers.org/omim/615139>
+      a       ncit:C7057 ;
+      rdfs:comment "Disease [omim:615139] annotated to phenotypes in HPO, and mapped to the disease [umls:C3554576] in DisGeNET. Phenotype annotation extracted from the Human Phenotype Ontology (HPO)."@en ;
+      rdfs:label "#615139 FACIAL DYSMORPHISM, IMMUNODEFICIENCY, LIVEDO, AND SHORT STATURE; FILS [omim:615139]"@en ;
+      dcterms:identifier "omim:615139"^^xsd:string ;
+      dcterms:title "#615139 FACIAL DYSMORPHISM, IMMUNODEFICIENCY, LIVEDO, AND SHORT STATURE; FILS"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/diseasePhenotypeAnnotation> ;
+      sio:SIO_001279 <http://purl.obolibrary.org/obo/HP_0004322> , <http://purl.obolibrary.org/obo/HP_0002205> , <http://purl.obolibrary.org/obo/HP_0000272> , <http://purl.obolibrary.org/obo/HP_0007421> , <http://purl.obolibrary.org/obo/HP_0003577> , <http://purl.obolibrary.org/obo/HP_0002721> , <http://purl.obolibrary.org/obo/HP_0004482> , <http://purl.obolibrary.org/obo/HP_0000337> , <http://purl.obolibrary.org/obo/HP_0000007> , <http://purl.obolibrary.org/obo/HP_0002653> ;
+      skos:exactMatch <http://bio2rdf.org/omim:615139> .
+      
+# ORPHANET diseases
+<http://identifiers.org/orphanet/3312>
+      a       ncit:C7057 ;
+      rdfs:comment "Disease [orphanet:3312] annotated to phenotypes in HPO, and mapped to the disease [umls:C0432365] in DisGeNET. Phenotype annotation extracted from the Human Phenotype Ontology (HPO)."@en ;
+      rdfs:label "THALIDOMIDE EMBRYOPATHY [orphanet:3312]"@en ;
+      dcterms:identifier "orphanet:3312"^^xsd:string ;
+      dcterms:title "THALIDOMIDE EMBRYOPATHY"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/diseasePhenotypeAnnotation> ;
+      sio:SIO_001279 <http://purl.obolibrary.org/obo/HP_0000365> , <http://purl.obolibrary.org/obo/HP_0004322> , <http://purl.obolibrary.org/obo/HP_0002997> , <http://purl.obolibrary.org/obo/HP_0002823> , <http://purl.obolibrary.org/obo/HP_0003063> , <http://purl.obolibrary.org/obo/HP_0001177> , <http://purl.obolibrary.org/obo/HP_0004059> , <http://purl.obolibrary.org/obo/HP_0009601> , <http://purl.obolibrary.org/obo/HP_0100867> , <http://purl.obolibrary.org/obo/HP_0000356> , <http://purl.obolibrary.org/obo/HP_0001171> , <http://purl.obolibrary.org/obo/HP_0001199> , <http://purl.obolibrary.org/obo/HP_0009813> , <http://purl.obolibrary.org/obo/HP_0002991> , <http://purl.obolibrary.org/obo/HP_0002564> ;
+      skos:exactMatch <http://bio2rdf.org/orphanet:3312> , <http://www.orpha.net/ORDO/Orphanet_3312> .
+
+# DECIPHER diseases
+<https://decipher.sanger.ac.uk/syndrome/42>
+      a       ncit:C7057 ;
+      rdfs:comment "Disease [decipher:42] annotated to phenotypes in HPO, and mapped to the disease [umls:C0265493] in DisGeNET. Phenotype annotation extracted from the Human Phenotype Ontology (HPO)."@en ;
+      rdfs:label "CAT-EYE SYNDROME (TYPE I) [decipher:42]"@en ;
+      dcterms:identifier "decipher:42"^^xsd:string ;
+      dcterms:title "CAT-EYE SYNDROME (TYPE I)"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/diseasePhenotypeAnnotation> ;
+      sio:SIO_001279 <http://purl.obolibrary.org/obo/HP_0000347> , <http://purl.obolibrary.org/obo/HP_0001249> , <http://purl.obolibrary.org/obo/HP_0001627> , <http://purl.obolibrary.org/obo/HP_0000384> , <http://purl.obolibrary.org/obo/HP_0004322> , <http://purl.obolibrary.org/obo/HP_0000612> , <http://purl.obolibrary.org/obo/HP_0004467> , <http://purl.obolibrary.org/obo/HP_0002023> , <http://purl.obolibrary.org/obo/HP_0000494> .
+
+
+
+# DisGeNET RDF v4.0.0 secondary concepts: 
+# PubMed Article
+<http://identifiers.org/pubmed/7919432>
+      a       ncit:C47902 ;
+      rdfs:comment "Scientific Article [pubmed:7919432] from MEDLINE/PubMed, which is a database of the U.S. National Library of Medicine, that gives evidence for at least one gene-disease association in DisGeNET. Articles are identified by the PubMed ID."@en ;
+      rdfs:label "7919432 [pubmed:7919432]"@en ;
+      dcterms:identifier "pubmed:7919432"^^xsd:string ;
+      dcterms:issued "1994"^^xsd:gYear ;
+      dcterms:title "7919432"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/pubmed> ;
+      skos:exactMatch <http://rdf.ncbi.nlm.nih.gov/pubchem/reference/PMID7919432> , <http://linkedlifedata.com/resource/pubmed/id/7919432> , <http://bio2rdf.org/pubmed:7919432> .
+
+# SNP
+<http://identifiers.org/dbsnp/rs45517179>
+      a       ncit:C18279 ;
+      rdfs:comment "SNP (Genetic variation) [dbsnp:rs45517179] related to at least one gene-disease association in DisGeNET. SNPs are identified by the NCBI dbSNP ID."@en ;
+      rdfs:label "rs45517179 [dbsnp:rs45517179]"@en ;
+      rdfs:seeAlso <http://www.ncbi.nlm.nih.gov/clinvar/?term=rs45517179> , <http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs45517179> , <http://www.snpedia.com/index.php/rs45517179> , <http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs45517179> ;
+      dcterms:identifier "dbsnp:rs45517179"^^xsd:string ;
+      dcterms:title "rs45517179"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/snp> ;
+      skos:exactMatch <http://bio2rdf.org/dbsnp:rs45517179> .
+
+# Source
+<http://rdf.disgenet.org/v4.0.0/void/uniprot-2016>
+      a       dctypes:Dataset , dcat:Distribution ;
+      dcterms:title "UniProt 2016 dataset distribution" ;
+      dcterms:alternative "UniProt, DisGeNET primary data source [disgenet:uniprot-2016]" ;
+      dcterms:creator <http://rdf.disgenet.org/v4.0.0/void/UniProt> ;
+      dcterms:description "DisGeNET database v4.0 contains UniProt distribution: uniprot-2016. Data was downloaded from the file http://www.uniprot.org/docs/humsavar.txt, file corresponding to version 2016_01,on January 25, 2016. Only disease-associated entries and the variants associated to disease were kept. UniProt/SwissProt is a database containing curated information about protein sequence, structure and function (Apweiler, et al., 2004)." ;
+      dcterms:format "text/csv" , <http://www.iana.org/assignments/media-types/text/csv> ;
+      dcterms:license <http://www.uniprot.org/help/license> ;
+      dcterms:publisher <http://rdf.disgenet.org/v4.0.0/void/UniProt> ;
+      wi:evidence :source_evidence_curated ;
+      pav:importedOn "2016-01-25"^^xsd:date ;
+      dcat:downloadURL <http://www.uniprot.org/docs/humsavar.txt> ;
+      prov:wasGeneratedBy eco:ECO_0000218 ;
+      foaf:page <http://www.uniprot.org/> .
+
+# DisGeNET Score
+<http://rdf.disgenet.org/resource/gda/ncbigene:4728_umls:C0023264_association_DisGeNETScore>
+      a       ncit:C25338 ;
+      rdfs:comment "DisGeNET Score for the association between NADH dehydrogenase (ubiquinone) Fe-S protein 8, 23kDa (NADH-coenzyme Q reductase) [ncbigene:4728] and Leigh Disease [umls:C0023264]. DisGeNET Score is based on evidence, please visit 'http://www.disgenet.org/web/DisGeNET/v2.1/dbinfo#score' for more details." ;
+      rdfs:label "ncbigene:4728-umls:C0023264 Association DisGeNET Score [disgenet:ncbigene:4728_umls:C0023264_association_DisGeNETScore]" ;
+      dcterms:identifier "disgenet:ncbigene:4728_umls:C0023264_association_DisGeNETScore"^^xsd:string ;
+      dcterms:title "ncbigene:4728-umls:C0023264 Association DisGeNET Score" ;
+      sio:SIO_000300 0.420850513710281 .
+      
+# Protein
+<http://identifiers.org/uniprot/Q9P021>
+      a       ncit:C17021 ;
+      rdfs:comment "Protein [uniprot:Q9P021] encoded by a gene in DisGeNET. Proteins are identified by the UniProt ID."@en ;
+      rdfs:label "Q9P021 [uniprot:Q9P021]"@en ;
+      dcterms:identifier "uniprot:Q9P021"^^xsd:string ;
+      dcterms:title "Q9P021"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/protein> ;
+      skos:exactMatch <http://linkedlifedata.com/resource/uniprot-protein/Q9P021> , <http://purl.uniprot.org/uniprot/Q9P021> , <http://bio2rdf.org/uniprot:Q9P021> , <http://bio2rdf.org/swissprot:Q9P021> .
+      
+# Gene Symbol
+<http://identifiers.org/hgnc.symbol/WDR1>
+      a       ncit:C43568 ;
+      rdfs:comment "HGNC Gene Symbol [hgnc:WDR1] that represents a gene in DisGeNET. HGNC Gene Symbols is a standard nomenclature for human genes assigned by the HUGO Gene Nomenclature Committee (HGNC), www.genenames.org."@en ;
+      rdfs:label "WDR1 [hgnc:WDR1]"@en ;
+      dcterms:identifier "hgnc:WDR1"^^xsd:string ;
+      dcterms:title "WDR1"@en ;
+      void:inDataset <http://rdf.disgenet.org/v4.0.0/void/geneSymbol> ;
+      skos:exactMatch <http://bio2rdf.org/hgnc.symbol:WDR1> .
+
+# DisGeNET Disease Specificity Index
+<http://rdf.disgenet.org/resource/disease.specificity/ncbigene:2029_DSI_DisGeNETIndex>
+      a       sio:SIO_001351 ;
+      rdfs:comment "DisGeNET Disease Specificity Index for the gene endosulfine alpha [ncbigene:2029]. DisGeNET Disease Specificity Index is described in the DisGeNET website , please visit 'http://www.disgenet.org/web/DisGeNET/menu/dbinfo#specificity' for more details."@en ;
+      rdfs:label "ncbigene:2029 DisGeNET Disease Specificity Index [disgenet:ncbigene:2029_DSI_DisGeNETIndex]"@en ;
+      dcterms:identifier "disgenet:ncbigene:2029_DSI_DisGeNETIndex"^^xsd:string ;
+      dcterms:title "ncbigene:2029 DisGeNET Disease Specificity Index"@en ;
+      sio:SIO_000300 "18.5E0"^^xsd:decimal .
+  
+# DisGeNET Disease Pleiotropy Index
+<http://rdf.disgenet.org/resource/disease.pleiotropy/ncbigene:406929_DPI_DisGeNETIndex>
+      a       sio:SIO_001352 ;
+      rdfs:comment "DisGeNET Disease Pleiotropy Index for the gene microRNA 138-1 [ncbigene:406929]. DisGeNET Disease Pleiotropy Index is described in the DisGeNET website , please visit 'http://www.disgenet.org/web/DisGeNET/menu/dbinfo#pleiotropy' for more details."@en ;
+      rdfs:label "ncbigene:406929 DisGeNET Disease Pleiotropy Index [disgenet:ncbigene:406929_DPI_DisGeNETIndex]"@en ;
+      dcterms:identifier "disgenet:ncbigene:406929_DPI_DisGeNETIndex"^^xsd:string ;
+      dcterms:title "ncbigene:406929 DisGeNET Disease Pleiotropy Index"@en ;
+      sio:SIO_000300 "13.7391477099865E0"^^xsd:decimal .
+
+

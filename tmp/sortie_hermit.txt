@@ -1,0 +1,16 @@
+SubClassOf( <http://test.org/intel.owl#SingleActivePrincipleDrug> <http://test.org/intel.owl#Drug> )
+SubClassOf( <http://test.org/intel.owl#DrugAssociation> <http://test.org/intel.owl#Drug> )
+SubClassOf( <http://test.org/intel.owl#Placebo> <http://test.org/intel.owl#Drug> )
+
+
+
+Type( <http://test.org/intel.owl#amoxicillin> <http://test.org/intel.owl#ActivePrinciple> )
+Type( <http://test.org/intel.owl#acetaminophen> <http://test.org/intel.owl#ActivePrinciple> )
+Type( <http://test.org/intel.owl#drug_3> <http://test.org/intel.owl#Drug> )
+Type( <http://test.org/intel.owl#drug_3> <http://test.org/intel.owl#Placebo> )
+Type( <http://test.org/intel.owl#drug_2> <http://test.org/intel.owl#Drug> )
+Type( <http://test.org/intel.owl#drug_2> <http://test.org/intel.owl#DrugAssociation> )
+Type( <http://test.org/intel.owl#drug_1> <http://test.org/intel.owl#Drug> )
+Type( <http://test.org/intel.owl#drug_1> <http://test.org/intel.owl#SingleActivePrincipleDrug> )
+Type( <http://test.org/intel.owl#clavulanic_acid> <http://test.org/intel.owl#ActivePrinciple> )
+
