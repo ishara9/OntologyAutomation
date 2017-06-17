@@ -164,11 +164,10 @@ class OntologyMaker:
                                                                                str(previous_ontology_version))
                         ANNOTATIONS[subject, predicate, object].add_annotation("priorVersion",
                                                                                str(self.ontology_version))
-                    ANNOTATIONS[subject, predicate, object].add_annotation("deprecated", str(adjusment))
 
+                    ANNOTATIONS[subject, predicate, object].add_annotation("deprecated", str(adjusment))
                     # caculate probability
                     probability = (float(value)) / (float(self.ontology_version + adjusment) - (float(version_at_begining) - 1))
-
                     print("adjustment: " + str(adjusment) + " previous_ontology_version: " + str(
                         previous_ontology_version) + " ontology version: " + str(self.ontology_version))
                     print("value: " + str(value) + " probability " + str(probability))

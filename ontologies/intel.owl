@@ -18,7 +18,7 @@
 <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
 <Prefix name="intel" IRI="http://test.org/intel.owl"/>
 
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">54.0</Literal></Annotation>
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">56.0</Literal></Annotation>
 
 <Declaration><ObjectProperty IRI="http://test.org/intel.owl#caused_by"/></Declaration>
 <Declaration><Class IRI="http://test.org/intel.owl#disease"/></Declaration>
@@ -49,13 +49,13 @@
 
 <ClassAssertion><Class IRI="http://test.org/intel.owl#cancer"/><NamedIndividual IRI="http://test.org/intel.owl#cirrhosis"/></ClassAssertion>
 <ObjectPropertyAssertion>
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">2.0</Literal></Annotation>
 
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/><Literal datatypeIRI="&xsd;string">54.0</Literal></Annotation>
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/><Literal datatypeIRI="&xsd;string">55.0</Literal></Annotation>
 
 <Annotation><AnnotationProperty IRI="http://test.org/intel.owl#probability"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
 
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#priorVersion"/><Literal datatypeIRI="&xsd;string">54.0</Literal></Annotation>
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#priorVersion"/><Literal datatypeIRI="&xsd;string">56.0</Literal></Annotation>
 
 <Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#deprecated"/><Literal datatypeIRI="&xsd;string">0.0</Literal></Annotation>
 <ObjectProperty IRI="http://test.org/intel.owl#caused_by"/><NamedIndividual IRI="http://test.org/intel.owl#cirrhosis"/><NamedIndividual IRI="http://test.org/intel.owl#hepatitis"/></ObjectPropertyAssertion>

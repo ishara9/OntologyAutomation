@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e841a186-c934-443e-bd32-2ead63e3caec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/OntologyAutomation_owlready.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_ontology.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ontologies/catalog-v001.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OntologyAutomation.py" afterPath="$PROJECT_DIR$/OntologyAutomation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo_ontology.py" afterPath="$PROJECT_DIR$/demo_ontology.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ontologies/catalog-v001.xml" afterPath="$PROJECT_DIR$/ontologies/catalog-v001.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ontologies/intel.owl" afterPath="$PROJECT_DIR$/ontologies/intel.owl" />
     </list>
     <ignored path="OntologyAutomation_owlready.iws" />
@@ -42,21 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo_ontology.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="demo_ontology.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo_ontology.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+            <state relative-caret-position="255">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OntologyAutomation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OntologyAutomation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OntologyAutomation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+            <state relative-caret-position="2873">
+              <caret line="169" column="128" selection-start-line="169" selection-start-column="128" selection-end-line="169" selection-end-column="128" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -79,8 +73,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo_ontology.py" />
         <option value="$PROJECT_DIR$/OntologyAutomation.py" />
+        <option value="$PROJECT_DIR$/demo_ontology.py" />
       </list>
     </option>
   </component>
@@ -367,21 +361,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo_ontology.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OntologyAutomation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+        <state relative-caret-position="2873">
+          <caret line="169" column="128" selection-start-line="169" selection-start-column="128" selection-end-line="169" selection-end-column="128" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_ontology.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
