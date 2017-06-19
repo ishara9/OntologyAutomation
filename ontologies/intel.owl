@@ -18,126 +18,1621 @@
 <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
 <Prefix name="intel" IRI="http://test.org/intel.owl"/>
 
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">64.0</Literal></Annotation>
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">120.0</Literal></Annotation>
 
 <Declaration><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#information_systems_keywords"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#information_search_and_retrieval"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#distributed_systems"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/></Declaration>
 <Declaration><Class IRI="http://test.org/intel.owl#acm_titles"/></Declaration>
 <Declaration><Class IRI="http://test.org/intel.owl#keywords"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#year"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#information_systems_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></Declaration>
 <Declaration><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences_keywords"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#information_systems"/></Declaration>
-<Declaration><Class IRI="http://test.org/intel.owl#computer_methodology"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#live_data"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#Live_Data_Center_Migration_across_WANs:A_Robust_Cooperative_Context_Aware_Approach"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#Service_Interface:_A_New_Abstraction_for_Implementing_and_Composing_Protocols"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#an_initial_analysis_and_presentation_of_malware_exhibiting"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_based_approach_to_multitasking"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#information_format"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#social_engineering_concepts"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#socio"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#protocols"/></Declaration>
-<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#acm_titles"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#information_systems_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_systems"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#information_search_and_retrieval"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems"/></Declaration>
 <Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#adptive_resource_management_tool"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_real_time_embedded_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#end_to_end_quality_of_service"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#service_end_to_end_quality"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hybrid_adaptive_resourcemanagement_middleware"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hybrid_control_technique"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#real_time_video_distribution_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#real_time_corba_specification"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#video_encoding_decoding"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#resource_reservation_mechanism"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dynamic_environment"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#streaming_service"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distribute_real_time_embed_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hybrid_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#quality_of_service"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#service_quality"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#ensemble_kalman_filter"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#datum_assimilation_methodology"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hydrocarbon_reservoir_simulation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#energy_exploration"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#tigre_grid_computing_environment"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#grid_computing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cyberinfrastructure_development_project"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#high_performance_computing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#tigre_grid_middleware"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#strategic_application_area"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#gridway_metascheduler"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#pooling_license"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#grid_enabling"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#reservoir_model"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#enkf"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#tigre"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#and_gridway"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#multi_sequence_positioning"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#wireless_sensor_network"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#massive_uva_based_deploment"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#node_localization"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#spatiotemporal_correlation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#event_distribution"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#range_based_approach"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distribution_based_location_estimation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#listen_detect_assemble_report_protocol"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#marginal_distribution"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#localization"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#node_sequence_process"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#corner_cube_retro_reflector"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#performance"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#range"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sensor_node"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#aerial_vehicle"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#image_processing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#scene_labeling"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#consistency"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#probability"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#unique_mapping"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#connectivity"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sensor_datum"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#separation_of_datum"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#datum_separation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#analysis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#archive"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#flooding"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#geographic_hash_table"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#homogeneous_architecture"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#multi_tier_sensor_network"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#flash_storage"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#metada"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_index_structure"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#interval_skip_graph"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#spatial_scoping"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#interval_tree"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#archival_storage"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#index_method"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sensor_network"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#multidimensional_range_query"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_index"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#centralized_index"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_datum_structure"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#datacentric_storage_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#geographic_routing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#event_insertion"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#querying_cost"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#indexing_technique"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#query_flooding"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#efficient_correlation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#locality_preserving_geographic_hash"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#asymptotic_behavior"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#normal_event_distribution"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dim"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#multi_dimensional_range_query"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#routing_protocol"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#contact_trace"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#delay_tolerant_network"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#mobile_opportunistic_network"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#frequent_link_break"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#end_to_end_path"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#random_mobility_model"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#realistic_mobility_trace"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#unicast"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#transfer_probability"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#direct_delivery_protocol"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#epidemic_protocol"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#replication_strategy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#history_of_past_encounter_and_transitivity"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#past_encounter_and_transitivity_history"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#prophet"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#opportunistic_network"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#route"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#simulation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#search_and_rescue"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#connected_network"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#emergency_situation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#pervasive_computing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#satellite_transmitter"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#witness"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#intermittent_network_connectivity"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#group_and_partition"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#location_tracking_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hiker"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#gp_receiver"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#rf_transmitter"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#beacon"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#fairness"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dead_reckoning_vector"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_multi_player_game"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#budget_based_algorithm"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#mean_error"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#accuracy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#scheduling_algorithm"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#quantization"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#export_error"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#bucket_synchronization"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#network_delay"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distribute_multi_player_game"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dead_reckon"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#clock_synchronization"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#local_lag"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#multiplayer_game"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#network_transmission_delay"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#time_warp"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#accurate_state"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#correction"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#physical_clock"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#usability_and_fairness"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#gs_dr_ll"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#continuous_replicate_application"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#remote_access"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#large_spatial_datum"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#client_server_architecture"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#spatial_query_evaluation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#datum_visualization"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#datum_management"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#centralized_peer_to_peer_approach"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#network_latency"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sand"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dynamic_network_infrastructure"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#web_browser"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#internet_enabled_database_management_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#gi"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#internet"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#client_server"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#peer_to_peer"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#context_awareness"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#group_interaction"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#software_framework"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#contextaware"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#mobility_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#fifth_contextdimension_group_context"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#xml_configuration_file"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#event_condition_action"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sensor_fusion"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#location_sense"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#process_execution"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_application"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_process"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_scheduling"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_execution"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_computing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#parallel_computing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#parallel_execution"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#process_description"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hierarchical_process_execution"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#grid_architecture"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#process_support"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distribute_middleware"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#congestion_game"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#load_dependent_failure"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#identical_resource"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#nash_equilibrium"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#nondecreasing_cost_function"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#localeffect_game"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#resource_cost_function"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#real_valued_function"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#potential_function"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#failure_probability"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#load_dependent_resource_failure"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#pure_strategy_nash_equilibrium"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#information_management_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_hash_table"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#networked_system_monitoring"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#large_scale_networked_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_operating_system_backbone"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#read_dominated_attribute"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#write_dominated_attribute"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#virtual_node"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#update_upk_downj_strategy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#temporal_heterogeneity"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#administrative_isolation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#autonomous_dht"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#aggregation_management_layer"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#availability"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#eventual_consistency"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#lazy_re_aggregation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#freepastry_framework"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#tunable_spatial_replication"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distribute_hash_table"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#network_system_monitor"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#multi_player_online_game"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#communication_proxy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#latency_compensation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#artificial_latency"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#proxy_based_game_architecture"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#central_server_architecture"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#assignment_of_authority"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#authority_assignment"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#first_person_shooter"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#role_playing_game"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#client_authoritative_approach"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cheat_proof_mechanism"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#mmog"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#authority"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#smart_market"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#network_monitor"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#routing_stagequality"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#verifiable_monitor"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#contractible_monitor"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#contracting_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#commoditization"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#routing_policy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#clean_slate_architectural_design"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#innovation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#monitor"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#contract"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#incentive"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#wireless_sensor_network_based_mobile_countersniper_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#helmetmounted_microphone_array"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#internode_communication"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sensorboard"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#self_orientation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#trajectory"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#caliber"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#weapon_type"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#1degree_trajectory_precision"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#caliber_estimation_accuracy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#datum_fusion"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#acoustic_source_localization"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#weapon_classification"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#caliber_estimation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#streamlined_functionality"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#end_to_end_workflow_composition"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#scheduling_agent"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#service_request"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#heuristic"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#scheduling_service"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#business_process_workflow"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#business_value_metric"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#multi_tiered_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#multi_organisation_environment"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#qos_defined_limit"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#web_service"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#qo"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#work_ows"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#schedule"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#visual_art"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#design"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#large_scale_integration_of_technology"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#design_education"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#mac_os_x"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#operating_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#high_end_graphic"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#nonlinear_video_editing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#animation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#multimedia"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#web_production"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#digital_video_application"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#xgrid_environment"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#macintosh_os_x"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#xgrid"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cluster"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#highperformance_computing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#rendezvous"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#render"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#audio_and_video_clip"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#peer_to_peer_vehicular_ad_hoc_network"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#datum_carrier"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#termed_zebroid"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#mobile_device"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#availability_latency"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#car_density"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#storage_per_device"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#repository_size"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#replacement_policy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#naive_random_replacement_policy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#zebroid"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#simplified_instantiation_of_zebroid"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#zebroid_simplified_instantiation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#mobility"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#vehicular_network"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#automaton"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#latency"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#markov_model"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#web_application"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#mobile_wireless_pda"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#functionality"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#pthinc"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#full_function_web_browser"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#pda_thinclient_solution"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#local_pda_web_browser"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#thin_client"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#web_browsing_performance"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#video_playback"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#crucial_browser_helper_application"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#high_fidelity_display"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#seamless_mobility"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#system_usability"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#screen_resolution"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#thin_client_computing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#remote_display"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#pervasive_web"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sensor_grouping"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#point_distribution_index"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#honeycomb_structure"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#surveillance"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#redundancy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#fault_tolerance"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#node_deduction_process"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#incremental_coverage_quality_algorithm"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sleeping_configuration_protocol"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sensor_coverage"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sensor_group"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#spectrum_sensing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#rf_interference"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#rf_spectrum"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cognitive_radio"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#spectrum_allocation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#coordinated_sensing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#fm_aggregation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#incremental_gossip_protocol"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#opportunistic_spectrum_sharing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#spatially_decaying_aggregate"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#innetwork_aggregation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#coordinate_spectrum_sense"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#gossip_protocol"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#incremental_algorithm"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#asynchronous_messaging_middleware"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#mobile_ad_hoc_environment"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#epidemic_messaging_middleware"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#message_oriented_middleware"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#java_messaging_service"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#asynchronous_communication"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cross_layering"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#application_level_routing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#group_communication"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#message_orient_middleware"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#middleware_for_mobile_computing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#mobile_ad_hoc_network"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_intrusion_detection_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#heterogeneous_intrusion_detection_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#grid_middleware"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#open_grid_service_architecture"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#computational_grid"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#intrusion_detection_service"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#grid_intrusion_detection_architecture"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#integration_of_ids"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#ids_integration"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#gridsim_grid_simulator"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#grid_service_for_intrusion_detection"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#intrusion_detection_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#grid"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#system_integration"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#service_oriented_event_correlation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#service_management"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#fault_management"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#service_level_agreement"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#qos"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#customer_service_management"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#service_oriented_management"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#process_management_framework"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#case_based_reasoning"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#rule_based_reasoning"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#event_correlation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_computation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#immediate_predecessor_tracking"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#common_global_memory"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#message_transfer_delay"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#vector_clock"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#tracking_causality"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#vector_timestamp"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#transitive_reduction"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#channel_ordering_property"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#ipt_protocol"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#checkpointing_problem"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#relevant_event"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#immediate_predecessor"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#control_information"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#piggybacking"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#causality_track"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hasse_diagram"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#message_pass"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#timestamp"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#smart_sensor"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#generic_event_architecture"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#temporal_constraint"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#event_channel"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#event_based_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#corba"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#real_time_entity"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sensor_and_actuator"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sentient_object"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dissemination_quality"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cortex"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#gear_architecture"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#temporal_validity"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#soft_real_time_channel"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cosmic_middleware"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#event_base_communication"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sentient_computing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#componentbase_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#middleware_architecture"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#manet"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#manet_p2p_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hybrid_discovery_scheme"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#neighbor_discovery_protocol"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#negative_feedback"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#query_packet"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#replica_invalidation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#validation_mesh"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#invalidation_packet"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#manet_routing_protocol"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#route_discovery_message"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#concurrent_update"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#resource_discovery"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#relational_database"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#temporal_locality"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#database_content"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#caching_dynamic_database_content"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hash_based_technique"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#natural_chunk_boundary"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#proxy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#jdbc_driver"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#resultset_object"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#bboard_benchmark"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#read_write_operation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#reciperesultset"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#content_addressable_storage"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#relational_database_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#database_cache"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#wide_area_network"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#bandwidth_optimization"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#energy_harvesting_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#environmental_energy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#harvesting_aware_power_management"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#power_management"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#performance_scaling"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#duty_cycling_rate"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#sampling_frequency"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#solar_panel"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#energy_tracking"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#energy_neutral_operation"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#storage_buffer"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#duty_cycle"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#power_scaling"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#energy_harvest"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#low_power_design"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#collaborative_document_processing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#pervasive_document_editing_and_managing_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#text_editing"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#real_time_transaction"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#computer_supported_collaborative_work"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#business_logic_layer"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#real_time_server_component"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#collaborative_layouting"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hierarchical_file_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#restriction"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#granularity"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#character_insertion"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#pervasive_document_edit_and_management_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#computer_support_collaborative_work"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cscw"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#collaborative_document"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#game_theoretic_approach"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#caching_problem"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#network_topology"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#peer_to_peer_file_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#remote_replica"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#demand_distribution"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#price_of_anarchy"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#anarchy_price"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#instrumentation_server"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#primal_dual_technique"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#social_utility"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#submodularity"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#group_strategyproofness"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#aggregation_effect"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#cache"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distribute_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#peer_to_peer_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#game_theoretic_model"/></Declaration>
 
-<TransitiveObjectProperty><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/></TransitiveObjectProperty>
+
 <ObjectPropertyDomain><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#acm_titles"/></ObjectPropertyDomain>
 <ObjectPropertyRange><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#keywords"/></ObjectPropertyRange>
 
-<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></SubClassOf>
 
-<SubClassOf><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
 
-<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></SubClassOf>
 
 <SubClassOf><Class IRI="http://test.org/intel.owl#information_systems_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
 
-<EquivalentClasses><Class IRI="http://test.org/intel.owl#information_search_and_retrieval"/>
-<ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
-<ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
+<SubClassOf><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
 
 <SubClassOf><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/><Class IRI="http://test.org/intel.owl#information_systems_keywords"/></SubClassOf>
 
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></SubClassOf>
+
+
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#information_systems_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/><Class IRI="http://test.org/intel.owl#information_systems_keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_systems"/><Class IRI="http://test.org/intel.owl#acm_titles"/></SubClassOf>
 <EquivalentClasses><Class IRI="http://test.org/intel.owl#distributed_systems"/>
 <ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
 <ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
 
-<EquivalentClasses><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems"/>
+<SubClassOf><Class IRI="http://test.org/intel.owl#information_search_and_retrieval"/><Class IRI="http://test.org/intel.owl#acm_titles"/></SubClassOf>
+<EquivalentClasses><Class IRI="http://test.org/intel.owl#information_search_and_retrieval"/>
 <ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
-<ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
+<ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
 
-
-
+<SubClassOf><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences"/><Class IRI="http://test.org/intel.owl#acm_titles"/></SubClassOf>
 <EquivalentClasses><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences"/>
 <ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
 <ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
 
-<SubClassOf><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems"/><Class IRI="http://test.org/intel.owl#acm_titles"/></SubClassOf>
+<EquivalentClasses><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems"/>
+<ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
+<ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
 
-
-
-<DifferentIndividuals><NamedIndividual IRI="http://test.org/intel.owl#agent"/><NamedIndividual IRI="http://test.org/intel.owl#agent_based_approach_to_multitasking"/><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/><NamedIndividual IRI="http://test.org/intel.owl#information_format"/><NamedIndividual IRI="http://test.org/intel.owl#social_engineering_concepts"/><NamedIndividual IRI="http://test.org/intel.owl#socio"/></DifferentIndividuals>
-<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#live_data"/></ClassAssertion>
-
-<ClassAssertion><Class IRI="http://test.org/intel.owl#acm_titles"/><NamedIndividual IRI="http://test.org/intel.owl#Live_Data_Center_Migration_across_WANs:A_Robust_Cooperative_Context_Aware_Approach"/></ClassAssertion>
-<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#Live_Data_Center_Migration_across_WANs:A_Robust_Cooperative_Context_Aware_Approach"/><NamedIndividual IRI="http://test.org/intel.owl#live_data"/></ObjectPropertyAssertion>
-
-<ClassAssertion><Class IRI="http://test.org/intel.owl#acm_titles"/><NamedIndividual IRI="http://test.org/intel.owl#Service_Interface:_A_New_Abstraction_for_Implementing_and_Composing_Protocols"/></ClassAssertion>
-<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#Service_Interface:_A_New_Abstraction_for_Implementing_and_Composing_Protocols"/><NamedIndividual IRI="http://test.org/intel.owl#protocols"/></ObjectPropertyAssertion>
-
-<ClassAssertion><Class IRI="http://www.w3.org/2002/07/owl#Thing"/><NamedIndividual IRI="http://test.org/intel.owl#an_initial_analysis_and_presentation_of_malware_exhibiting"/></ClassAssertion>
-
-<ClassAssertion><Class IRI="http://test.org/intel.owl#acm_titles"/><NamedIndividual IRI="http://test.org/intel.owl#agent_based_approach_to_multitasking"/></ClassAssertion>
-<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#agent_based_approach_to_multitasking"/><NamedIndividual IRI="http://test.org/intel.owl#agent"/></ObjectPropertyAssertion>
-<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#agent_based_approach_to_multitasking"/><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/></ObjectPropertyAssertion>
-<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#agent_based_approach_to_multitasking"/><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></ObjectPropertyAssertion>
-
-<ClassAssertion><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#information_format"/></ClassAssertion>
-
-<ClassAssertion><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></ClassAssertion>
-
-<ClassAssertion><Class IRI="http://test.org/intel.owl#acm_titles"/><NamedIndividual IRI="http://test.org/intel.owl#social_engineering_concepts"/></ClassAssertion>
-<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#social_engineering_concepts"/><NamedIndividual IRI="http://test.org/intel.owl#socio"/></ObjectPropertyAssertion>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#acm_titles"/><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></ObjectPropertyAssertion>
 
 <ClassAssertion><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/></ClassAssertion>
 
-<ClassAssertion><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#socio"/></ClassAssertion>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></ClassAssertion>
 
-<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#protocols"/></ClassAssertion>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#adptive_resource_management_tool"/></ClassAssertion>
 
-<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#agent"/></ClassAssertion>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_real_time_embedded_system"/></ClassAssertion>
 
-<ClassAssertion><Class IRI="http://test.org/intel.owl#acm_titles"/><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/></ClassAssertion>
-<ObjectPropertyAssertion>
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#end_to_end_quality_of_service"/></ClassAssertion>
 
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/><Literal datatypeIRI="&xsd;string">64.0</Literal></Annotation>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#service_end_to_end_quality"/></ClassAssertion>
 
-<Annotation><AnnotationProperty IRI="http://test.org/intel.owl#probability"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#hybrid_adaptive_resourcemanagement_middleware"/></ClassAssertion>
 
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#priorVersion"/><Literal datatypeIRI="&xsd;string">64.0</Literal></Annotation>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#hybrid_control_technique"/></ClassAssertion>
 
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#deprecated"/><Literal datatypeIRI="&xsd;string">0.0</Literal></Annotation>
-<ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/></ObjectPropertyAssertion>
-<ObjectPropertyAssertion>
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#real_time_video_distribution_system"/></ClassAssertion>
 
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/><Literal datatypeIRI="&xsd;string">64.0</Literal></Annotation>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#real_time_corba_specification"/></ClassAssertion>
 
-<Annotation><AnnotationProperty IRI="http://test.org/intel.owl#probability"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#video_encoding_decoding"/></ClassAssertion>
 
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#priorVersion"/><Literal datatypeIRI="&xsd;string">64.0</Literal></Annotation>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#resource_reservation_mechanism"/></ClassAssertion>
 
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#deprecated"/><Literal datatypeIRI="&xsd;string">0.0</Literal></Annotation>
-<ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></ObjectPropertyAssertion>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#dynamic_environment"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#streaming_service"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distribute_real_time_embed_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#hybrid_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#quality_of_service"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#service_quality"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#ensemble_kalman_filter"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#datum_assimilation_methodology"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#hydrocarbon_reservoir_simulation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#energy_exploration"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#tigre_grid_computing_environment"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#grid_computing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#cyberinfrastructure_development_project"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#high_performance_computing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#tigre_grid_middleware"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#strategic_application_area"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#gridway_metascheduler"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#pooling_license"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#grid_enabling"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#reservoir_model"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#enkf"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#tigre"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#and_gridway"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#multi_sequence_positioning"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#wireless_sensor_network"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#massive_uva_based_deploment"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#node_localization"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#spatiotemporal_correlation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#event_distribution"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#range_based_approach"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distribution_based_location_estimation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#listen_detect_assemble_report_protocol"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#marginal_distribution"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#localization"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#node_sequence_process"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#corner_cube_retro_reflector"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#performance"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#range"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sensor_node"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#aerial_vehicle"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#image_processing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#scene_labeling"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#consistency"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#probability"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#unique_mapping"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#connectivity"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sensor_datum"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#separation_of_datum"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#datum_separation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#analysis"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#archive"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#flooding"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#geographic_hash_table"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#homogeneous_architecture"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#multi_tier_sensor_network"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#flash_storage"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#metada"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_index_structure"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#interval_skip_graph"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#spatial_scoping"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#interval_tree"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#archival_storage"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#index_method"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sensor_network"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#multidimensional_range_query"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_index"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#centralized_index"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_datum_structure"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#datacentric_storage_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#geographic_routing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#event_insertion"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#querying_cost"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#indexing_technique"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#query_flooding"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#efficient_correlation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#locality_preserving_geographic_hash"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#asymptotic_behavior"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#normal_event_distribution"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#dim"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#multi_dimensional_range_query"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#routing_protocol"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#contact_trace"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#delay_tolerant_network"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#mobile_opportunistic_network"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#frequent_link_break"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#end_to_end_path"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#random_mobility_model"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#realistic_mobility_trace"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#unicast"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#transfer_probability"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#direct_delivery_protocol"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#epidemic_protocol"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#replication_strategy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#history_of_past_encounter_and_transitivity"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#past_encounter_and_transitivity_history"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#prophet"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#opportunistic_network"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#route"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#simulation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#search_and_rescue"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#connected_network"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#emergency_situation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#pervasive_computing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#satellite_transmitter"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#witness"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#intermittent_network_connectivity"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#group_and_partition"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#location_tracking_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#hiker"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#gp_receiver"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#rf_transmitter"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#beacon"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#fairness"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#dead_reckoning_vector"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_multi_player_game"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#budget_based_algorithm"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#mean_error"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#accuracy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#scheduling_algorithm"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#quantization"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#export_error"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#bucket_synchronization"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#network_delay"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distribute_multi_player_game"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#dead_reckon"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#clock_synchronization"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#local_lag"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#multiplayer_game"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#network_transmission_delay"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#time_warp"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#accurate_state"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#correction"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#physical_clock"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#usability_and_fairness"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#gs_dr_ll"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#continuous_replicate_application"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#remote_access"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#large_spatial_datum"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#client_server_architecture"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#spatial_query_evaluation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#datum_visualization"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#datum_management"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#centralized_peer_to_peer_approach"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#network_latency"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sand"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#dynamic_network_infrastructure"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#web_browser"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#internet_enabled_database_management_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#gi"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#internet"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#client_server"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#peer_to_peer"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#context_awareness"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#group_interaction"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#software_framework"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#contextaware"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#mobility_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#fifth_contextdimension_group_context"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#xml_configuration_file"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#event_condition_action"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sensor_fusion"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#location_sense"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#process_execution"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_application"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_process"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_scheduling"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_execution"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_computing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#parallel_computing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#parallel_execution"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#process_description"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#hierarchical_process_execution"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#grid_architecture"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#process_support"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distribute_middleware"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#congestion_game"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#load_dependent_failure"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#identical_resource"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#nash_equilibrium"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#nondecreasing_cost_function"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#localeffect_game"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#resource_cost_function"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#real_valued_function"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#potential_function"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#failure_probability"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#load_dependent_resource_failure"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#pure_strategy_nash_equilibrium"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#information_management_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_hash_table"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#networked_system_monitoring"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#large_scale_networked_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_operating_system_backbone"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#read_dominated_attribute"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#write_dominated_attribute"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#virtual_node"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#update_upk_downj_strategy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#temporal_heterogeneity"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#administrative_isolation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#autonomous_dht"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#aggregation_management_layer"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#availability"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#eventual_consistency"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#lazy_re_aggregation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#freepastry_framework"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#tunable_spatial_replication"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distribute_hash_table"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#network_system_monitor"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#multi_player_online_game"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#communication_proxy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#latency_compensation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#artificial_latency"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#proxy_based_game_architecture"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#central_server_architecture"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#assignment_of_authority"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#authority_assignment"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#first_person_shooter"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#role_playing_game"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#client_authoritative_approach"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#cheat_proof_mechanism"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#mmog"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#authority"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#smart_market"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#network_monitor"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#routing_stagequality"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#verifiable_monitor"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#contractible_monitor"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#contracting_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#commoditization"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#routing_policy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#clean_slate_architectural_design"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#innovation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#monitor"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#contract"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#incentive"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#wireless_sensor_network_based_mobile_countersniper_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#helmetmounted_microphone_array"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#internode_communication"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sensorboard"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#self_orientation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#trajectory"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#caliber"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#weapon_type"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#1degree_trajectory_precision"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#caliber_estimation_accuracy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#datum_fusion"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#acoustic_source_localization"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#weapon_classification"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#caliber_estimation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#streamlined_functionality"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#end_to_end_workflow_composition"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#scheduling_agent"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#service_request"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#heuristic"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#scheduling_service"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#business_process_workflow"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#business_value_metric"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#multi_tiered_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#multi_organisation_environment"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#qos_defined_limit"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#web_service"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#qo"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#work_ows"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#schedule"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#visual_art"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#design"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#large_scale_integration_of_technology"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#design_education"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#mac_os_x"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#operating_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#high_end_graphic"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#nonlinear_video_editing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#animation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#multimedia"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#web_production"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#digital_video_application"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#xgrid_environment"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#macintosh_os_x"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#xgrid"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#cluster"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#highperformance_computing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#rendezvous"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#render"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#audio_and_video_clip"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#peer_to_peer_vehicular_ad_hoc_network"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#datum_carrier"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#termed_zebroid"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#mobile_device"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#availability_latency"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#car_density"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#storage_per_device"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#repository_size"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#replacement_policy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#naive_random_replacement_policy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#zebroid"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#simplified_instantiation_of_zebroid"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#zebroid_simplified_instantiation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#mobility"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#vehicular_network"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#automaton"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#latency"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#markov_model"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#web_application"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#mobile_wireless_pda"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#functionality"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#pthinc"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#full_function_web_browser"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#pda_thinclient_solution"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#local_pda_web_browser"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#thin_client"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#web_browsing_performance"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#video_playback"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#crucial_browser_helper_application"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#high_fidelity_display"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#seamless_mobility"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#system_usability"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#screen_resolution"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#thin_client_computing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#remote_display"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#pervasive_web"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sensor_grouping"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#point_distribution_index"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#honeycomb_structure"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#surveillance"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#redundancy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#fault_tolerance"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#node_deduction_process"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#incremental_coverage_quality_algorithm"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sleeping_configuration_protocol"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sensor_coverage"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sensor_group"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#spectrum_sensing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#rf_interference"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#rf_spectrum"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#cognitive_radio"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#spectrum_allocation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#coordinated_sensing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#fm_aggregation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#incremental_gossip_protocol"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#opportunistic_spectrum_sharing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#spatially_decaying_aggregate"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#innetwork_aggregation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#coordinate_spectrum_sense"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#gossip_protocol"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#incremental_algorithm"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#asynchronous_messaging_middleware"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#mobile_ad_hoc_environment"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#epidemic_messaging_middleware"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#message_oriented_middleware"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#java_messaging_service"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#asynchronous_communication"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#cross_layering"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#application_level_routing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#group_communication"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#message_orient_middleware"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#middleware_for_mobile_computing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#mobile_ad_hoc_network"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_intrusion_detection_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#heterogeneous_intrusion_detection_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#grid_middleware"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#open_grid_service_architecture"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#computational_grid"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#intrusion_detection_service"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#grid_intrusion_detection_architecture"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#integration_of_ids"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#ids_integration"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#gridsim_grid_simulator"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#grid_service_for_intrusion_detection"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#intrusion_detection_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#grid"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#system_integration"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#service_oriented_event_correlation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#service_management"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#fault_management"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#service_level_agreement"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#qos"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#customer_service_management"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#service_oriented_management"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#process_management_framework"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#case_based_reasoning"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#rule_based_reasoning"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#event_correlation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_computation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#immediate_predecessor_tracking"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#common_global_memory"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#message_transfer_delay"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#vector_clock"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#tracking_causality"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#vector_timestamp"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#transitive_reduction"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#channel_ordering_property"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#ipt_protocol"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#checkpointing_problem"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#relevant_event"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#immediate_predecessor"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#control_information"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#piggybacking"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#causality_track"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#hasse_diagram"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#message_pass"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#timestamp"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#smart_sensor"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#generic_event_architecture"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#temporal_constraint"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#event_channel"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#event_based_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#corba"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#real_time_entity"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sensor_and_actuator"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sentient_object"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#dissemination_quality"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#cortex"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#gear_architecture"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#temporal_validity"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#soft_real_time_channel"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#cosmic_middleware"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#event_base_communication"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sentient_computing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#componentbase_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#middleware_architecture"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#manet"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#manet_p2p_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#hybrid_discovery_scheme"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#neighbor_discovery_protocol"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#negative_feedback"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#query_packet"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#replica_invalidation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#validation_mesh"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#invalidation_packet"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#manet_routing_protocol"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#route_discovery_message"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#concurrent_update"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#resource_discovery"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#relational_database"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#temporal_locality"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#database_content"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#caching_dynamic_database_content"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#hash_based_technique"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#natural_chunk_boundary"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#proxy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#jdbc_driver"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#resultset_object"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#bboard_benchmark"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#read_write_operation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#reciperesultset"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#content_addressable_storage"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#relational_database_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#database_cache"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#wide_area_network"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#bandwidth_optimization"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#energy_harvesting_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#environmental_energy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#harvesting_aware_power_management"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#power_management"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#performance_scaling"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#duty_cycling_rate"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#sampling_frequency"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#solar_panel"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#energy_tracking"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#energy_neutral_operation"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#storage_buffer"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#duty_cycle"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#power_scaling"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#energy_harvest"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#low_power_design"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#collaborative_document_processing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#pervasive_document_editing_and_managing_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#text_editing"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#real_time_transaction"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#computer_supported_collaborative_work"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#business_logic_layer"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#real_time_server_component"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#collaborative_layouting"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#hierarchical_file_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#restriction"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#granularity"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#character_insertion"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#pervasive_document_edit_and_management_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#computer_support_collaborative_work"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#cscw"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#collaborative_document"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#game_theoretic_approach"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#caching_problem"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#network_topology"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#peer_to_peer_file_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#remote_replica"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#demand_distribution"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#price_of_anarchy"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#anarchy_price"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#instrumentation_server"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#primal_dual_technique"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#social_utility"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#submodularity"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#group_strategyproofness"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#aggregation_effect"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#cache"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distribute_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#peer_to_peer_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#game_theoretic_model"/></ClassAssertion>
 
 </Ontology>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+]>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://test.org/intel.owl" ontologyIRI="http://test.org/intel.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+<Prefix name="" IRI="http://test.org/intel.owl"/>
+<Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+<Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+<Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+<Prefix name="intel" IRI="http://test.org/intel.owl"/>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">83.0</Literal></Annotation>
+
+<Declaration><Class IRI="http://test.org/intel.owl#acm_titles"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#year"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#information_systems_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#adptive_resource_management"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#distributed_rea_time_embedded_system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#end-to-end_quality_of_service"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#service_end-to-end_quality"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hybrid_adaptive_resourcemanagement_middleware"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#hybrid_control_technique"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#real-time_video_distribution system"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#real-time_corba_specification"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#video_encoding/decoding"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#resource_reservation_mechanism"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#dynamic_environment"/></Declaration>
+
+
+
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#information_systems_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/><Class IRI="http://test.org/intel.owl#information_systems_keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></SubClassOf>
+
+<ClassAssertion><Class IRI="http://www.w3.org/2002/07/owl#Thing"/><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://www.w3.org/2002/07/owl#Thing"/><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://www.w3.org/2002/07/owl#Thing"/><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#adptive_resource_management"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#distributed_rea_time_embedded_system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#end-to-end_quality_of_service"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#service_end-to-end_quality"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#hybrid_adaptive_resourcemanagement_middleware"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#hybrid_control_technique"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#real-time_video_distribution system"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#real-time_corba_specification"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#video_encoding/decoding"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#resource_reservation_mechanism"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#dynamic_environment"/></ClassAssertion>
+
+</Ontology>
