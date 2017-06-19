@@ -1,258 +1,143 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://test.org/intel.owl"
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+]>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://test.org/intel.owl" ontologyIRI="http://test.org/intel.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://test.org/intel.owl">
-    <Prefix name="" IRI="http://test.org/intel.owl"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="intel" IRI="http://test.org/intel.owl"/>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">62.0</Literal>
-    </Annotation>
-    <Declaration>
-        <NamedIndividual IRI="#live_data"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#computer_methodology_keywords"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#distributed_systems_keywords"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Live_Data_Center_Migration_across_WANs:A_Robust_Cooperative_Context_Aware_Approach"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Service_Interface:_A_New_Abstraction_for_Implementing_and_Composing_Protocols"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#information_systems_keywords"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#an_initial_analysis_and_presentation_of_malware_exhibiting"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#agent_based_approach_to_multitasking"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#information_search_and_retrieval"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#information_format"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#information_search_and_retrieval_keywords"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#distributed_systems"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#agent_number"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#social_engineering_concepts"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#agent_id"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#socio"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#distributed_artificial_intelligence_and_multi_agent_systems"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_keyword"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#acm_titles"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#protocols"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#keywords"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#social_and_behavioral_sciences"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#agent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#social_and_behavioral_sciences_keywords"/>
-    </Declaration>
-    <EquivalentClasses>
-        <Class IRI="#distributed_artificial_intelligence_and_multi_agent_systems"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#acm_titles"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#has_keyword"/>
-                <Class IRI="#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#distributed_systems"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#acm_titles"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#has_keyword"/>
-                <Class IRI="#distributed_systems_keywords"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#information_search_and_retrieval"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#acm_titles"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#has_keyword"/>
-                <Class IRI="#information_search_and_retrieval_keywords"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#social_and_behavioral_sciences"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#acm_titles"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#has_keyword"/>
-                <Class IRI="#social_and_behavioral_sciences_keywords"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <SubClassOf>
-        <Class IRI="#computer_methodology_keywords"/>
-        <Class IRI="#keywords"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/>
-        <Class IRI="#computer_methodology_keywords"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#distributed_systems_keywords"/>
-        <Class IRI="#computer_methodology_keywords"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#information_search_and_retrieval_keywords"/>
-        <Class IRI="#information_systems_keywords"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#information_systems_keywords"/>
-        <Class IRI="#keywords"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#social_and_behavioral_sciences_keywords"/>
-        <Class IRI="#keywords"/>
-    </SubClassOf>
-    <ClassAssertion>
-        <Class IRI="#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/>
-        <NamedIndividual IRI="#agent"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#acm_titles"/>
-        <NamedIndividual IRI="#agent_based_approach_to_multitasking"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#information_search_and_retrieval_keywords"/>
-        <NamedIndividual IRI="#agent_id"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#information_search_and_retrieval_keywords"/>
-        <NamedIndividual IRI="#agent_number"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#information_search_and_retrieval_keywords"/>
-        <NamedIndividual IRI="#information_format"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#distributed_systems_keywords"/>
-        <NamedIndividual IRI="#live_data"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#distributed_systems_keywords"/>
-        <NamedIndividual IRI="#protocols"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#acm_titles"/>
-        <NamedIndividual IRI="#social_engineering_concepts"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#social_and_behavioral_sciences_keywords"/>
-        <NamedIndividual IRI="#socio"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#acm_titles"/>
-        <NamedIndividual IRI="#Live_Data_Center_Migration_across_WANs:A_Robust_Cooperative_Context_Aware_Approach"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#acm_titles"/>
-        <NamedIndividual IRI="#Service_Interface:_A_New_Abstraction_for_Implementing_and_Composing_Protocols"/>
-    </ClassAssertion>
-    <DifferentIndividuals>
-        <NamedIndividual IRI="#agent"/>
-        <NamedIndividual IRI="#agent_based_approach_to_multitasking"/>
-        <NamedIndividual IRI="#agent_id"/>
-        <NamedIndividual IRI="#agent_number"/>
-        <NamedIndividual IRI="#information_format"/>
-        <NamedIndividual IRI="#social_engineering_concepts"/>
-        <NamedIndividual IRI="#socio"/>
-    </DifferentIndividuals>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_keyword"/>
-        <NamedIndividual IRI="#agent_based_approach_to_multitasking"/>
-        <NamedIndividual IRI="#agent"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_keyword"/>
-        <NamedIndividual IRI="#agent_based_approach_to_multitasking"/>
-        <NamedIndividual IRI="#agent_id"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_keyword"/>
-        <NamedIndividual IRI="#agent_based_approach_to_multitasking"/>
-        <NamedIndividual IRI="#agent_number"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_keyword"/>
-        <NamedIndividual IRI="#social_engineering_concepts"/>
-        <NamedIndividual IRI="#socio"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_keyword"/>
-        <NamedIndividual IRI="#Live_Data_Center_Migration_across_WANs:A_Robust_Cooperative_Context_Aware_Approach"/>
-        <NamedIndividual IRI="#live_data"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_keyword"/>
-        <NamedIndividual IRI="#Service_Interface:_A_New_Abstraction_for_Implementing_and_Composing_Protocols"/>
-        <NamedIndividual IRI="#protocols"/>
-    </ObjectPropertyAssertion>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#has_keyword"/>
-    </TransitiveObjectProperty>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_keyword"/>
-        <Class IRI="#acm_titles"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_keyword"/>
-        <Class IRI="#keywords"/>
-    </ObjectPropertyRange>
+>
+<Prefix name="" IRI="http://test.org/intel.owl"/>
+<Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+<Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+<Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+<Prefix name="intel" IRI="http://test.org/intel.owl"/>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">64.0</Literal></Annotation>
+
+<Declaration><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#information_systems_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#information_search_and_retrieval"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_systems"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#acm_titles"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#information_systems"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#computer_methodology"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#live_data"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#Live_Data_Center_Migration_across_WANs:A_Robust_Cooperative_Context_Aware_Approach"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#Service_Interface:_A_New_Abstraction_for_Implementing_and_Composing_Protocols"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#an_initial_analysis_and_presentation_of_malware_exhibiting"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_based_approach_to_multitasking"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#information_format"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#social_engineering_concepts"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#socio"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#protocols"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/></Declaration>
+
+<TransitiveObjectProperty><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/></TransitiveObjectProperty>
+<ObjectPropertyDomain><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#acm_titles"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#keywords"/></ObjectPropertyRange>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#information_systems_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
+
+<EquivalentClasses><Class IRI="http://test.org/intel.owl#information_search_and_retrieval"/>
+<ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
+<ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/><Class IRI="http://test.org/intel.owl#information_systems_keywords"/></SubClassOf>
+
+<EquivalentClasses><Class IRI="http://test.org/intel.owl#distributed_systems"/>
+<ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
+<ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
+
+<EquivalentClasses><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems"/>
+<ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
+<ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
+
+
+
+<EquivalentClasses><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences"/>
+<ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
+<ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences_keywords"/><Class IRI="http://test.org/intel.owl#keywords"/></SubClassOf>
+
+
+
+<DifferentIndividuals><NamedIndividual IRI="http://test.org/intel.owl#agent"/><NamedIndividual IRI="http://test.org/intel.owl#agent_based_approach_to_multitasking"/><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/><NamedIndividual IRI="http://test.org/intel.owl#information_format"/><NamedIndividual IRI="http://test.org/intel.owl#social_engineering_concepts"/><NamedIndividual IRI="http://test.org/intel.owl#socio"/></DifferentIndividuals>
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#live_data"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#acm_titles"/><NamedIndividual IRI="http://test.org/intel.owl#Live_Data_Center_Migration_across_WANs:A_Robust_Cooperative_Context_Aware_Approach"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#Live_Data_Center_Migration_across_WANs:A_Robust_Cooperative_Context_Aware_Approach"/><NamedIndividual IRI="http://test.org/intel.owl#live_data"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#acm_titles"/><NamedIndividual IRI="http://test.org/intel.owl#Service_Interface:_A_New_Abstraction_for_Implementing_and_Composing_Protocols"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#Service_Interface:_A_New_Abstraction_for_Implementing_and_Composing_Protocols"/><NamedIndividual IRI="http://test.org/intel.owl#protocols"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://www.w3.org/2002/07/owl#Thing"/><NamedIndividual IRI="http://test.org/intel.owl#an_initial_analysis_and_presentation_of_malware_exhibiting"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#acm_titles"/><NamedIndividual IRI="http://test.org/intel.owl#agent_based_approach_to_multitasking"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#agent_based_approach_to_multitasking"/><NamedIndividual IRI="http://test.org/intel.owl#agent"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#agent_based_approach_to_multitasking"/><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#agent_based_approach_to_multitasking"/><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#information_format"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#acm_titles"/><NamedIndividual IRI="http://test.org/intel.owl#social_engineering_concepts"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#social_engineering_concepts"/><NamedIndividual IRI="http://test.org/intel.owl#socio"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#socio"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#protocols"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/><NamedIndividual IRI="http://test.org/intel.owl#agent"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/intel.owl#acm_titles"/><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/></ClassAssertion>
+<ObjectPropertyAssertion>
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/><Literal datatypeIRI="&xsd;string">64.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://test.org/intel.owl#probability"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#priorVersion"/><Literal datatypeIRI="&xsd;string">64.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#deprecated"/><Literal datatypeIRI="&xsd;string">0.0</Literal></Annotation>
+<ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/><NamedIndividual IRI="http://test.org/intel.owl#agent_id"/></ObjectPropertyAssertion>
+<ObjectPropertyAssertion>
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/><Literal datatypeIRI="&xsd;string">64.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://test.org/intel.owl#probability"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#priorVersion"/><Literal datatypeIRI="&xsd;string">64.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#deprecated"/><Literal datatypeIRI="&xsd;string">0.0</Literal></Annotation>
+<ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><NamedIndividual IRI="http://test.org/intel.owl#agent_bases_tech"/><NamedIndividual IRI="http://test.org/intel.owl#agent_number"/></ObjectPropertyAssertion>
+
 </Ontology>
-
-
-
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
-
