@@ -15,7 +15,7 @@ mainProperties = [['has_keyword', 'acm_titles', 'keywords']]  # [Predicate, Subj
 # Introduce word concepts(instances) with classifications
 
 
-classifiedWords = [['agent_bases_tech', 'acm_titles'],
+classifiedWords = [['agent_based_tech', 'acm_titles'],
                    ['agent_id', 'information_search_and_retrieval_keywords'],
                    ['agent_number', 'information_search_and_retrieval_keywords'],
                    ['adptive resource management tool', 'distributed_systems_keywords '],
@@ -556,7 +556,7 @@ classifiedWords = [['agent_bases_tech', 'acm_titles'],
                    ] # [individual, Class]
 
 # semantic template
-relationshipSet = [['agent_bases_tech', 'has_keyword', 'agent_id'],['agent_bases_tech', 'has_keyword', 'agent_number'],['agent_bases_tech', 'has_keyword', 'adptive_resource_management']]  # [Subject, Predicate, Object]
+relationshipSet = [['agent_based_tech', 'has_keyword', 'agent_id'],['agent_based_tech', 'has_keyword', 'agent_number'],['agent_based_tech', 'has_keyword', 'distributed real time embedded system']]  # [Subject, Predicate, Object]
 
 # Restructuring all arrays to support strucuture in owlready
 for i,keyed in enumerate(mainClasses):

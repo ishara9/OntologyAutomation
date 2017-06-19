@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e841a186-c934-443e-bd32-2ead63e3caec" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ontologies/intel_bad.owl" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acm.py" afterPath="$PROJECT_DIR$/acm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ontologies/catalog-v001.xml" afterPath="$PROJECT_DIR$/ontologies/catalog-v001.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ontologies/intel.owl" afterPath="$PROJECT_DIR$/ontologies/intel.owl" />
     </list>
     <ignored path="OntologyAutomation_owlready.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,8 +58,8 @@
       <file leaf-file-name="acm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10244">
-              <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+            <state relative-caret-position="10455">
+              <caret line="615" column="23" selection-start-line="615" selection-start-column="23" selection-end-line="615" selection-end-column="23" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -545,8 +546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10244">
-          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+        <state relative-caret-position="10455">
+          <caret line="615" column="23" selection-start-line="615" selection-start-column="23" selection-end-line="615" selection-end-column="23" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
