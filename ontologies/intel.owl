@@ -18,7 +18,7 @@
 <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
 <Prefix name="intel" IRI="http://test.org/intel.owl"/>
 
-<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">120.0</Literal></Annotation>
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">3.0</Literal></Annotation>
 
 <Declaration><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/></Declaration>
 <Declaration><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/></Declaration>
@@ -31,6 +31,10 @@
 <Declaration><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/></Declaration>
 <Declaration><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/></Declaration>
 <Declaration><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_systems"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#information_search_and_retrieval"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences"/></Declaration>
+<Declaration><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems"/></Declaration>
 <Declaration><Class IRI="http://test.org/intel.owl#acm_titles"/></Declaration>
 <Declaration><Class IRI="http://test.org/intel.owl#keywords"/></Declaration>
 <Declaration><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></Declaration>
@@ -556,6 +560,8 @@
 <Declaration><NamedIndividual IRI="http://test.org/intel.owl#peer_to_peer_system"/></Declaration>
 <Declaration><NamedIndividual IRI="http://test.org/intel.owl#game_theoretic_model"/></Declaration>
 
+<ObjectPropertyDomain><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#acm_titles"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#keywords"/></ObjectPropertyRange>
 
 <ObjectPropertyDomain><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#acm_titles"/></ObjectPropertyDomain>
 <ObjectPropertyRange><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#keywords"/></ObjectPropertyRange>
@@ -574,6 +580,26 @@
 <SubClassOf><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></SubClassOf>
 
 <SubClassOf><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/><Class IRI="http://test.org/intel.owl#computer_methodology_keywords"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_systems"/><Class IRI="http://test.org/intel.owl#acm_titles"/></SubClassOf>
+<EquivalentClasses><Class IRI="http://test.org/intel.owl#distributed_systems"/>
+<ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
+<ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#distributed_systems_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#information_search_and_retrieval"/><Class IRI="http://test.org/intel.owl#acm_titles"/></SubClassOf>
+<EquivalentClasses><Class IRI="http://test.org/intel.owl#information_search_and_retrieval"/>
+<ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
+<ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#information_search_and_retrieval_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences"/><Class IRI="http://test.org/intel.owl#acm_titles"/></SubClassOf>
+<EquivalentClasses><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences"/>
+<ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
+<ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#social_and_behavioral_sciences_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
+
+<SubClassOf><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems"/><Class IRI="http://test.org/intel.owl#acm_titles"/></SubClassOf>
+<EquivalentClasses><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems"/>
+<ObjectIntersectionOf><Class IRI="http://test.org/intel.owl#acm_titles"/>
+<ObjectSomeValuesFrom><ObjectProperty IRI="http://test.org/intel.owl#has_keyword"/><Class IRI="http://test.org/intel.owl#distributed_artificial_intelligence_and_multi_agent_systems_keywords"/></ObjectSomeValuesFrom></ObjectIntersectionOf></EquivalentClasses>
 
 
 

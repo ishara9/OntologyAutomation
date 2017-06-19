@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e841a186-c934-443e-bd32-2ead63e3caec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/ishara.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OntologyAutomation.py" afterPath="$PROJECT_DIR$/OntologyAutomation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acm.py" afterPath="$PROJECT_DIR$/acm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ontologies/catalog-v001.xml" afterPath="$PROJECT_DIR$/ontologies/catalog-v001.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ontologies/intel.owl" afterPath="$PROJECT_DIR$/ontologies/intel.owl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/sortie_hermit.txt" afterPath="$PROJECT_DIR$/tmp/sortie_hermit.txt" />
     </list>
     <ignored path="OntologyAutomation_owlready.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +59,8 @@
       <file leaf-file-name="acm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="557" column="19" selection-start-line="557" selection-start-column="19" selection-end-line="557" selection-end-column="19" />
+            <state relative-caret-position="160">
+              <caret line="589" column="35" selection-start-line="589" selection-start-column="35" selection-end-line="589" selection-end-column="35" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -74,7 +71,7 @@
       <file leaf-file-name="relationshipBuilder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/relationshipBuilder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="51">
               <caret line="342" column="86" selection-start-line="342" selection-start-column="27" selection-end-line="342" selection-end-column="86" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -86,8 +83,8 @@
       <file leaf-file-name="OntologyAutomation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OntologyAutomation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="76" column="51" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
+            <state relative-caret-position="-152">
+              <caret line="132" column="66" selection-start-line="132" selection-start-column="66" selection-end-line="132" selection-end-column="66" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -528,9 +525,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OntologyAutomation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="132" column="66" selection-start-line="132" selection-start-column="66" selection-end-line="132" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/relationshipBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="51">
           <caret line="342" column="86" selection-start-line="342" selection-start-column="27" selection-end-line="342" selection-end-column="86" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -538,20 +545,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OntologyAutomation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="76" column="51" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="557" column="19" selection-start-line="557" selection-start-column="19" selection-end-line="557" selection-end-column="19" />
+        <state relative-caret-position="160">
+          <caret line="589" column="35" selection-start-line="589" selection-start-column="35" selection-end-line="589" selection-end-column="35" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>

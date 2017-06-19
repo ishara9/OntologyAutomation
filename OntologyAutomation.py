@@ -23,10 +23,10 @@ class OntologyMaker:
 
         prob_not_found = True
         for annotation in self.onto.annotation_properties:
-            if str(annotation) == "probability_value":
+            if str(annotation) == "probabilityValue":
                 prob_not_found = False
         if prob_not_found:
-            NewClass = types.new_class("probability_value", (AnnotationProperty,), kwds={"ontology": self.onto})
+            NewClass = types.new_class("probabilityValue", (AnnotationProperty,), kwds={"ontology": self.onto})
 
         # TO instantiate classes at the class declaration use following
         # print(self.onto.annotation_properties)
@@ -102,18 +102,18 @@ class OntologyMaker:
 
                 method = str(predicate)
 
-                relation_found = True
+                relation_not_found = True
                 for cc in set(getattr(subject, method)):
                     if str(object) == str(cc):
-                        relation_found = False
-                if relation_found:
+                        relation_not_found = False
+                if relation_not_found:
                     getattr(subject, method).append(object)
                     # versionInfo use number of times relationship occurs
                     ANNOTATIONS[subject, predicate, object].add_annotation("versionInfo", "1.0")
                     # label use version_at_begining
                     ANNOTATIONS[subject, predicate, object].add_annotation("label", str(self.ontology_version))
-                    # comment use probability_value
-                    ANNOTATIONS[subject, predicate, object].add_annotation("probability_value", "1.0")
+                    # comment use probabilityValue
+                    ANNOTATIONS[subject, predicate, object].add_annotation("probabilityValue", "1.0")
                     # priorVersion use priorVersion of ontology
                     ANNOTATIONS[subject, predicate, object].add_annotation("priorVersion", str(self.ontology_version))
                     # deprecated use to track adjustment
@@ -122,7 +122,7 @@ class OntologyMaker:
                 else:
                     version_value = "0.0"
                     version_at_begining = "0.0"
-                    probability_value_at_begining = "0.0"
+                    probabilityValue_at_begining = "0.0"
                     previous_ontology_version = 0
                     adjusment = 0
                     for annotation_property, annotation_value, annotation_lang in ANNOTATIONS[
@@ -131,8 +131,8 @@ class OntologyMaker:
                             version_value = annotation_value
                         if str(annotation_property) == "label":
                             version_at_begining = annotation_value
-                        if str(annotation_property) == "probability_value":
-                            probability_value_at_begining = annotation_value
+                        if str(annotation_property) == "probabilityValue":
+                            probabilityValue_at_begining = annotation_value
                         if str(annotation_property) == "priorVersion":
                             previous_ontology_version = float(annotation_value)
                         if str(annotation_property) == "deprecated":
@@ -150,13 +150,13 @@ class OntologyMaker:
                                                                                str(self.ontology_version))
 
                     ANNOTATIONS[subject, predicate, object].add_annotation("deprecated", str(adjusment))
-                    # caculate probability_value
-                    probability_value = (float(value)) / (float(self.ontology_version + adjusment) - (float(version_at_begining) - 1))
+                    # caculate probabilityValue
+                    probabilityValue = (float(value)) / (float(self.ontology_version + adjusment) - (float(version_at_begining) - 1))
                     # print("adjustment: " + str(adjusment) + " previous_ontology_version: " + str(
                     #     previous_ontology_version) + " ontology version: " + str(self.ontology_version))
-                    # print("value: " + str(value) + " probability_value " + str(probability_value))
-                    ANNOTATIONS[subject, predicate, object].del_annotation("probability_value", probability_value_at_begining)
-                    ANNOTATIONS[subject, predicate, object].add_annotation("probability_value", str(probability_value))
+                    # print("value: " + str(value) + " probabilityValue " + str(probabilityValue))
+                    ANNOTATIONS[subject, predicate, object].del_annotation("probabilityValue", probabilityValue_at_begining)
+                    ANNOTATIONS[subject, predicate, object].add_annotation("probabilityValue", str(probabilityValue))
 
             # print()
         except Exception as e:
