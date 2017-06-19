@@ -17,4 +17,4 @@ To use OntologyAutomation class
 ## defines relationships between each objects (individuals)
 `owl.relationshipBuilder(relationshipSet)`
 ## Saving
-owl.saveOnto()`
+`owl.saveOnto()`
