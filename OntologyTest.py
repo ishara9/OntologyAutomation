@@ -1,11 +1,11 @@
 from owlready import *
 import types
 
-class OntologyMaker:
+class OntologyMakerTest:
 
     def __init__(self):
-        ontology_name = "intel.owl"
-        ont_url = "http://test.org/intel.owl"
+        ontology_name = "test.owl"
+        ont_url = "http://test.org/test.owl"
         local_path = "ontologies"
         # owlready_ontology = get_ontology("http://srilankasquash.com/projects/onto/beyond.owl").load()
         self.onto = Ontology(ont_url)
@@ -56,6 +56,7 @@ class OntologyMaker:
                 if eachclass[1] == str(cc) and sub_class_not_found:
                     NewClass = types.new_class(eachclass[0], (cc,), kwds={"ontology": self.onto})
 
+
     # Add New Property
     def PropertyDefiner(self, mainProperties):
         for eachRelation in mainProperties:
@@ -90,6 +91,7 @@ class OntologyMaker:
                     domain = instance_is
                 if eachRelation[2] == str(instance_is):
                     range = instance_is
+
             if relation_found:
                 Prop = types.new_class(eachRelation[0], (Property,), kwds={"ontology": self.onto})
                 Prop.domain = [range]
@@ -114,7 +116,7 @@ class OntologyMaker:
 
     # Use to build Relationships from Tripples
     def relationshipBuilder(self, relationshipSet):
-        try:
+        # try:
             for eachRelation in relationshipSet:
                 for thisInstance in self.onto.instances:
                     if eachRelation[0] == str(thisInstance):
@@ -186,10 +188,75 @@ class OntologyMaker:
                     ANNOTATIONS[subject, predicate, object].add_annotation("probabilityValue", str(probabilityValue))
 
             # print()
-        except Exception as e:
-            print("Error Saving to Ontology: " + str(relationshipSet))
-            print(e)
+        # except Exception as e:
+        #     print("Error Saving to Ontology: " + str(relationshipSet))
+        #     print(e)
+
+    # def rel_builder(self,relationshipSet):
+    #     add_relation(relationshipSet[0][0],relationshipSet[0][1],relationshipSet[0][2])
 
     #Ontology save
     def saveOnto(self):
         self.onto.save()
+
+# Intoduce clases in list
+mainClasses = ['Disease', 'Cure', 'Cause', 'Prevention', 'Symptom', 'Treatment']
+
+# Introduce properties in list with domain and range
+mainProperties = [['has_cause', 'Disease', 'Cause']]
+inverseProperties = [['is_cause_by', 'Disease', 'Cause','has_cause']]
+
+# Introduce word concepts(instances) with classifications
+classifiedWords = [['influenza', 'Disease'], ['HIV', 'Disease'], ['arthritis', 'Disease'],
+                   ['immune_system_dysfunction', 'Symptom'], ['injury', 'Cause']]
+
+# semantic template
+relationshipSet = [['arthritis', 'has_cause', 'injury']]
+
+
+
+# CALLING FORMAT
+owl = OntologyMakerTest()
+owl.ClassDefiner(mainClasses)
+owl.updateClassifications(classifiedWords)
+owl.PropertyDefiner(mainProperties)
+owl.InversePropertyDefiner(inverseProperties)
+owl.relationshipBuilder(relationshipSet)
+# owl.rel_builder(relationshipSet)
+
+
+
+# class Drug(Thing):
+#     ontology = owl.onto
+
+# class Ingredient(Thing):
+#     ontology = owl.onto
+
+
+# class has_for_ingredient(Property):
+#     ontology = owl.onto
+#     domain   = [Drug]
+#     range    = [Ingredient]
+
+# class is_ingredient_of(Property):
+#     ontology         = owl.onto
+#     domain           = [Ingredient]
+#     range            = [Drug]
+#     inverse_property = has_for_ingredient
+
+# Drug = types.new_class("Drug1", (Thing,), kwds={"ontology": owl.onto})
+# Ingredient = types.new_class("Ingredient1", (Thing,), kwds={"ontology": owl.onto})
+# has_for_ingredient = types.new_class("has_for_ingredient", (Property,), kwds={"ontology": owl.onto})
+# has_for_ingredient.domain = [Drug]
+# has_for_ingredient.range = [Ingredient]
+#
+# is_ingredient_of = types.new_class("is_ingredient_of", (Property,), kwds={"ontology": owl.onto})
+# is_ingredient_of.domain = [Ingredient]
+# is_ingredient_of.range = [Drug]
+# is_ingredient_of.inverse_property = has_for_ingredient
+
+
+
+
+
+owl.saveOnto()

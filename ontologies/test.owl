@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+]>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://test.org/test.owl" ontologyIRI="http://test.org/test.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+<Prefix name="" IRI="http://test.org/test.owl"/>
+<Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+<Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+<Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+<Prefix name="test" IRI="http://test.org/test.owl"/>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">15.0</Literal></Annotation>
+
+<Declaration><ObjectProperty IRI="http://test.org/test.owl#has_cause"/></Declaration>
+<Declaration><ObjectProperty IRI="http://test.org/test.owl#is_cause_by"/></Declaration>
+<Declaration><Class IRI="http://test.org/test.owl#Cure"/></Declaration>
+<Declaration><Class IRI="http://test.org/test.owl#Treatment"/></Declaration>
+<Declaration><Class IRI="http://test.org/test.owl#Disease"/></Declaration>
+<Declaration><Class IRI="http://test.org/test.owl#Symptom"/></Declaration>
+<Declaration><Class IRI="http://test.org/test.owl#Prevention"/></Declaration>
+<Declaration><Class IRI="http://test.org/test.owl#Cause"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/test.owl#influenza"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/test.owl#immune_system_dysfunction"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/test.owl#arthritis"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/test.owl#HIV"/></Declaration>
+<Declaration><NamedIndividual IRI="http://test.org/test.owl#injury"/></Declaration>
+
+<InverseObjectProperties><ObjectProperty IRI="http://test.org/test.owl#has_cause"/><ObjectProperty IRI="http://test.org/test.owl#is_cause_by"/></InverseObjectProperties>
+<ObjectPropertyDomain><ObjectProperty IRI="http://test.org/test.owl#has_cause"/><Class IRI="http://test.org/test.owl#Disease"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="http://test.org/test.owl#has_cause"/><Class IRI="http://test.org/test.owl#Cause"/></ObjectPropertyRange>
+
+<InverseObjectProperties><ObjectProperty IRI="http://test.org/test.owl#is_cause_by"/><ObjectProperty IRI="http://test.org/test.owl#has_cause"/></InverseObjectProperties>
+<ObjectPropertyDomain><ObjectProperty IRI="http://test.org/test.owl#is_cause_by"/><Class IRI="http://test.org/test.owl#Cause"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="http://test.org/test.owl#is_cause_by"/><Class IRI="http://test.org/test.owl#Disease"/></ObjectPropertyRange>
+
+
+
+
+
+
+
+<ClassAssertion><Class IRI="http://test.org/test.owl#Disease"/><NamedIndividual IRI="http://test.org/test.owl#influenza"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/test.owl#Symptom"/><NamedIndividual IRI="http://test.org/test.owl#immune_system_dysfunction"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/test.owl#Disease"/><NamedIndividual IRI="http://test.org/test.owl#arthritis"/></ClassAssertion>
+<ObjectPropertyAssertion>
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#versionInfo"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/><Literal datatypeIRI="&xsd;string">15.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://test.org/test.owl#probabilityValue"/><Literal datatypeIRI="&xsd;string">1.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#priorVersion"/><Literal datatypeIRI="&xsd;string">15.0</Literal></Annotation>
+
+<Annotation><AnnotationProperty IRI="http://www.w3.org/2002/07/owl#deprecated"/><Literal datatypeIRI="&xsd;string">0.0</Literal></Annotation>
+<ObjectProperty IRI="http://test.org/test.owl#has_cause"/><NamedIndividual IRI="http://test.org/test.owl#arthritis"/><NamedIndividual IRI="http://test.org/test.owl#injury"/></ObjectPropertyAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/test.owl#Disease"/><NamedIndividual IRI="http://test.org/test.owl#HIV"/></ClassAssertion>
+
+<ClassAssertion><Class IRI="http://test.org/test.owl#Cause"/><NamedIndividual IRI="http://test.org/test.owl#injury"/></ClassAssertion>
+<ObjectPropertyAssertion><ObjectProperty IRI="http://test.org/test.owl#is_cause_by"/><NamedIndividual IRI="http://test.org/test.owl#injury"/><NamedIndividual IRI="http://test.org/test.owl#arthritis"/></ObjectPropertyAssertion>
+
+</Ontology>

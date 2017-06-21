@@ -10,8 +10,13 @@ subClasses = [['information_systems_keywords','keywords'],
               ['information_search_and_retrieval_keywords','information_systems_keywords'],
               ['distributed_systems_keywords','computer_methodology_keywords'],
               ['distributed_artificial_intelligence_and_multi_agent_systems_keywords','computer_methodology_keywords']]  # [Subclass, ParentClass]
+
+subClasses.append(['hardware_keywords','keywords'])
+
 # Introduce properties in list with domain and range
 mainProperties = [['has_keyword', 'acm_titles', 'keywords']]  # [Predicate, Subject's Class, Object's Class]
+
+inverseProperties = [['is_keyword_of', 'acm_titles', 'keywords','has_keyword']]  # [InverseProperty, Subject's Class, Object's Class, Predicate]
 # Introduce word concepts(instances) with classifications
 
 
@@ -588,6 +593,7 @@ owl.ClassDefiner(mainClasses)
 owl.SubClassDefiner(subClasses)
 owl.updateClassifications(classifiedWords)
 owl.PropertyDefiner(mainProperties)
+owl.InversePropertyDefiner(inverseProperties)
 owl.relationshipBuilder(relationshipSet)
 
 # Creating Inferenciable classes
